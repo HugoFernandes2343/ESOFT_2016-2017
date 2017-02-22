@@ -2,5 +2,5 @@
 
 * [Visão](Visão)
 * [Glossário](Glossário)
-* [Casos De Uso](Engenharia de Requisitos/Casos de Uso)
+* [Casos De Uso](Engenharia de Requisito/Casos De Uso)
 * [Especificação Suplementar](Especificação Suplementar)
