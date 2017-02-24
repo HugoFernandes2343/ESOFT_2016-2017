@@ -7,20 +7,20 @@ O utilizador não registado introduz no sistema os seus dados (credenciais de ac
 
 ##	Formato completo
 
-###Ator principal
+### Ator principal
 * Utilizador não registado
 
-###Partes interessadas e seus interesses
+### Partes interessadas e seus interesses
 + Utilizador não registado: Pretende obter credenciais para poder aceder a funcionalidades específicas de utilizador registado.
 + Centro de Eventos: Pretende criar e manter registo dos utilizadores de determinadas funcionalidades da aplicação.
 
-###Pré-condições
+### Pré-condições
 + Utilizador não está autenticado.
 
-###Pós-condições
+### Pós-condições
 * O registo do utilizador fica armazenado no sistema.
 
-###Cenário de sucesso principal (ou fluxo básico)
+### Cenário de sucesso principal (ou fluxo básico)
 1. O utilizador (não registado) inicia no sistema o seu registo.
 2. O sistema solicita os dados do utilizador (credenciais de acesso, nome, e-mail).
 3. O utilizador (não registado) introduz os dados solicitados.
@@ -28,7 +28,7 @@ O utilizador não registado introduz no sistema os seus dados (credenciais de ac
 5. O utilizador (não registado) confirma os dados.
 6. O sistema regista os dados e informa o utilizador (não registado) do sucesso da operação.
 
-###Extensões (ou fluxos alternativos)
+### Extensões (ou fluxos alternativos)
 *a. O utilizador (não registado) solicita cancelamento do registo.
 
 + O caso de uso termina.
@@ -52,19 +52,19 @@ O utilizador não registado introduz no sistema os seus dados (credenciais de ac
 
 1. O sistema alerta o utilizador para o facto.
 2. O sistema permite a sua alteração (passo 3)
-    
+
     2a. O utilizador (não registado) não altera os dados. O caso de uso termina.
 
-##Requisitos especiais
-* 
+## Requisitos especiais
+*
 
-##Lista de variações em tecnologias e dados
-* 
+## Lista de variações em tecnologias e dados
+*
 
-##Frequência de Ocorrência
-* 
+## Frequência de Ocorrência
+*
 
-##Questões em aberto
+## Questões em aberto
 + O registo de utilizadores deve estar sempre disponível, mesmo que não haja eventos registados no sistema?
 + Quais são os dados obrigatórios para o registo de utilizadores?
 + Quais os dados que em conjunto permitem detectar a duplicação de utilizadores?
