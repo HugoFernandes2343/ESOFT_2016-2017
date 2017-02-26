@@ -54,6 +54,7 @@ O utilizador não registado introduz no sistema os seus dados (credenciais de ac
 2. O sistema permite a sua alteração (passo 3)
 
     2a. O utilizador (não registado) não altera os dados. O caso de uso termina.
+**
 
 ## Requisitos especiais
 *
