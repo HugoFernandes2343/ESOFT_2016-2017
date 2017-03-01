@@ -29,8 +29,31 @@ O representante do participante fará uma candidatura para participar num dos ev
 6. O sistema regista a candidatura e informa o representante do participante (com a candidatura não registada) do sucesso da operação.
 
 ### Extensões (ou fluxos alternativos)
-*a
+*a. O representante do participante (com a candidatura não registada) solicita cancelamento do registo.
 
++ O caso de uso termina.
+
+4a. Dados mínimos obrigatórios em falta.
+
+1. O sistema informa quais os dados em falta.
+2. O sistema permite a introdução dos dados em falta (passo 3)
+
+    2.a O representante do participante (com a candidatura não registada) não altera os dados. O caso de uso termina.
+
+
+4b. O sistema detecta que os dados (ou algum subconjunto dos dados) introduzidos devem ser únicos e que já existem no sistema.
+
+1. O sistema alerta O representante do participante para o facto.
+2. O sistema permite a sua alteração (passo 3)
+
+    2a. O representante do participante (com a candidatura não registada) não altera os dados. O caso de uso termina.
+
+4c. O sistema detecta que os dados introduzidos (ou algum subconjunto dos dados) são inválidos.
+
+1. O sistema alerta o representante do participante para o facto.
+2. O sistema permite a sua alteração (passo 3)
+
+    2a. O representante do participante (com a candidatura não registada) não altera os dados. O caso de uso termina.
 **
 
 ## Requisitos especiais
@@ -46,5 +69,5 @@ O representante do participante fará uma candidatura para participar num dos ev
 + O registo de candidaturas deve estar sempre disponível, mesmo que não haja eventos registados no sistema?
 + Quais são os dados obrigatórios para o registo da candidatura?
 + Quais os dados que em conjunto permitem detectar a duplicação de candidaturas?
-+ Como é que o representante poderá anular posteriormente a candidatura.
++ Como é que o representante poderá anular posteriormente a candidatura?
 + Qual a frequência de ocorrência deste caso de uso?
