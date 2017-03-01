@@ -1,4 +1,4 @@
-# UC5 Validar candidaturas
+# UC8 Atribuir stands a participantes
 ## Formato breve
 
 ## SDD de formato breve
