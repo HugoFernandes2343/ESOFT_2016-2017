@@ -29,7 +29,7 @@ O representante do participante fará uma candidatura para participar num dos ev
 6. O sistema regista a candidatura e informa o representante do participante (com a candidatura não registada) do sucesso da operação.
 
 ### Extensões (ou fluxos alternativos)
-*a. O representante do participante (com a candidatura não registada) solicita cancelamento do registo.
+\*a. O representante do participante (com a candidatura não registada) solicita cancelamento do registo.
 
 + O caso de uso termina.
 
@@ -54,7 +54,7 @@ O representante do participante fará uma candidatura para participar num dos ev
 2. O sistema permite a sua alteração (passo 3)
 
     2a. O representante do participante (com a candidatura não registada) não altera os dados. O caso de uso termina.
-**
+
 
 ## Requisitos especiais
 *

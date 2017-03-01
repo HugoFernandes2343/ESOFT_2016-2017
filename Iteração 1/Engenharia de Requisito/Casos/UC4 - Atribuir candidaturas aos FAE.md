@@ -3,7 +3,7 @@
 O organizador inicia o sistema e atribui as candidaturas de um dos eventos coordenados por ele aos FAE reponsáveis pelo evento para que possa ser avaliada.
 
 ## SDD de formato breve
-
+![SDD_UC4.png](../../Imagens/SDD_UC4.png)
 ## Formato completo
 
 ### Ator principal
@@ -30,9 +30,7 @@ O organizador inicia o sistema e atribui as candidaturas de um dos eventos coord
 12. O sistema indica sucesso.
 
 ### Extensões (ou fluxos alternativos)
-*a
-
-**
+\*a
 
 ## Requisitos especiais
 

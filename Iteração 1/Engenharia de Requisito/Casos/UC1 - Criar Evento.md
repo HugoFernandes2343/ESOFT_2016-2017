@@ -30,7 +30,7 @@ O gestor de eventos inicia o sistema e intruduz no sistema os dados do evento no
 6. O sistema regista os dados e informa o gestor do sucesso da operação.
 
 ### Extensões (ou fluxos alternativos)
-*a. O gestor solicita o cancelamento do registo.
+\*a. O gestor solicita o cancelamento do registo.
 
 + O caso de uso termina.
 
@@ -50,7 +50,7 @@ O gestor de eventos inicia o sistema e intruduz no sistema os dados do evento no
 1. O sistema avisa o gestor do facto.
 2. O sistema permite a alteração dos dados(passo 3).
   2.a O utilizador não altera os dados. O caso de uso termina.
-**
+
 ## Requisitos especiais
 *
 

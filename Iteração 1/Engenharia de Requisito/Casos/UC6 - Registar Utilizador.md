@@ -29,7 +29,7 @@ O utilizador não registado introduz no sistema os seus dados (credenciais de ac
 6. O sistema regista os dados e informa o utilizador (não registado) do sucesso da operação.
 
 ### Extensões (ou fluxos alternativos)
-*a. O utilizador (não registado) solicita cancelamento do registo.
+\*a. O utilizador (não registado) solicita cancelamento do registo.
 
 + O caso de uso termina.
 
@@ -54,7 +54,7 @@ O utilizador não registado introduz no sistema os seus dados (credenciais de ac
 2. O sistema permite a sua alteração (passo 3)
 
     2a. O utilizador (não registado) não altera os dados. O caso de uso termina.
-**
+
 
 ## Requisitos especiais
 *

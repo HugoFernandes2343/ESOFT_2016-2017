@@ -32,7 +32,7 @@ O organizador inicia o sistema, insere as suas credenciais, diz qual é o evento
 
 ### Extensões (ou fluxos alternativos)
 
-*a O organizador solicita o cancelamento do processo
+\*a O organizador solicita o cancelamento do processo
 
  + O caso de uso termina.
 
@@ -42,7 +42,7 @@ O organizador inicia o sistema, insere as suas credenciais, diz qual é o evento
 1. O sistema informa quais os dados em falta.
 2. O sistema permite a introdução dos dados em falta (passo 3)
 
-    2.a O utilizador (não registado) não altera os dados. O caso de uso termina.
+    2.a O organizador não altera os dados. O caso de uso termina.
 
 4b. O organizador nâo está encarregue do evento em questao
 
@@ -56,16 +56,14 @@ O organizador inicia o sistema, insere as suas credenciais, diz qual é o evento
 1. O sistema informa quais os dados em falta.
 2. O sistema permite a introdução dos dados em falta (passo 3)
 
-    2.a O utilizador (não registado) não altera os dados. O caso de uso termina.
+    2.a O organizador não altera os dados. O caso de uso termina.
 
 8b. O sistema detecta que os dados introduzidos (ou algum subconjunto dos dados) são inválidos.
 
-1. O sistema alerta o utilizador para o facto.
+1. O sistema alerta o organizador para o facto.
 2. O sistema permite a sua alteração (passo 3)
 
-         2a. O utilizador (não registado) não altera os dados. O caso de uso termina.
-
-**
+         2a. O organizador não altera os dados. O caso de uso termina.
 
 ## Requisitos especiais
 **

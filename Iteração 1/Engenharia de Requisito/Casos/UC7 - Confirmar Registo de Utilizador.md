@@ -17,9 +17,9 @@ Um gestor de eventos solicita ao sistema o conjunto de utilizadores que efetuara
 ### Cenário de sucesso principal (ou fluxo básico)
 
 ### Extensões (ou fluxos alternativos)
-*a
+\*a
 
-**
+
 
 ## Requisitos especiais
 
