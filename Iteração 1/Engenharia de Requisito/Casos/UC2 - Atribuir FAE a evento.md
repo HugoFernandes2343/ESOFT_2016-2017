@@ -1,8 +1,8 @@
 # UC2 Atribui FAE a evento
 ## Formato breve
 O organizador inicia o sistema, insere as suas credenciais, diz qual é o evento a qual quer atribuir FAE, e quais são estes FAE.
-## SDD de formato breve
-![SDD_UC2.png](../../Imagens/SDD_UC2.png)
+## SSD de formato breve
+![SSD_UC2.png](../../Imagens/SSD_UC2.png)
 ## Formato completo
 
 ### Ator principal

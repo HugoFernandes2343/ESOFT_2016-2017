@@ -7,4 +7,3 @@
 * [UC5 - Avaliar candidaturas](Casos/UC5 - Validar candidaturas)
 * [UC6 - Registar Utilizador](Casos/UC6 - Registar Utilizador)
 * [UC7 - Confirmar Registo de Utilizador](Casos/UC7 - Confirmar Registo de Utilizador)
-* [UC8 - Atribuir stands a participantes](Casos/UC8 - Atribuir stands a participantes)

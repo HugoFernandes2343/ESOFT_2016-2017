@@ -1,8 +1,8 @@
 # UC3 Criar candidatura
 ## Formato breve
 O representante do participante fará uma candidatura para participar num dos eventos listados na aplicação. Uma vez criada a candidatura, o representante terá de aguardar pela aprovação da candidatura por parte das FAE.
-## SDD de formato breve
-![SDD_UC3.png](../../Imagens/SDD_UC3.png)
+## SSD de formato breve
+![SSD_UC3.png](../../Imagens/SSD_UC3.png)
 ## Formato completo
 
 ### Ator principal
