@@ -37,3 +37,4 @@ Participante: ser confirmado pelo gestor de forma a passar
 ## Questões em aberto
 + Quão frequente é este caso de uso?
 + O gestor pode recusar utilizadores?
++ Se não ouver gestores registados ainda como se confirma?
