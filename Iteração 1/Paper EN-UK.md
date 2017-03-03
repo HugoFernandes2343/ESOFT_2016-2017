@@ -14,4 +14,4 @@ One of the organizers assigns to FAEs the applications for decision. For each ap
 
 It is necessary that all the event managers, organizers, participants and FAE are registered in the system as users. To do this, the user not registered in the system creates a user profile indicating his/her name, email address and access credentials (password is stored encrypted). An event manager then confirms the user registration.
 
-The main core of the software should be implemented in Java. To increase the maintainability of the software, OO analysis and OO design best practices should be adopted.
+The main core of the software should be implemented in Java. To increase the maintainability of the software, OO analysis and OO design best practices should be adopted. **An iterative and incremental software development process must be adopted. The user actions should be logged for further auditing.**

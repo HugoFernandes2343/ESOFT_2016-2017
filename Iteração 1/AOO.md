@@ -1,8 +1,9 @@
 # Análise OO
 ## Tabela de conceitos
 
-| Gestor de eventos                                    | Cria        | Evento        |
+| Classe 1                                             | Ação        | Class 2       |
 |------------------------------------------------------|-------------|---------------|
+| Gestor de eventos                                    | Cria        | Evento        |
 | Evento                                               | Tem         | Organizadores |
 | Organizadores                                        | Nomeam      | FAE           |
 | Representante                                        | Faz         | Candidatura   |
