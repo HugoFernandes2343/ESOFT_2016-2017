@@ -1,5 +1,10 @@
 # Casos De Uso
 
+## Diagrama De Casos De Uso
+![UseCaseDiagram.png](../../Imagens/UseCaseDiagram.png)
+
+## Casos De Uso
+
 * [UC1 - Criar Evento](Casos/UC1 - Criar Evento)
 * [UC2 - Atribuir FAE a evento](Casos/UC2 - Atribuir FAE a evento)
 * [UC3 - Criar candidatura](Casos/UC3 - Criar candidatura)
