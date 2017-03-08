@@ -72,3 +72,4 @@ O utilizador não registado introduz no sistema os seus dados (credenciais de ac
 + Como é que os utilizadores podem recuperar as credenciais de acesso?
 + Alguém deve ser notificado do registo de utilizador no sistema como, por exemplo, os organizadores de eventos que irão decorrer brevemente?
 + Qual a frequência de ocorrência deste caso de uso?
++ Que tipo de encriptação deverá ser implementada?

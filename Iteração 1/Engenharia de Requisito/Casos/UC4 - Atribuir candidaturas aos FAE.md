@@ -10,7 +10,7 @@ O organizador inicia o sistema e atribui as candidaturas de um dos eventos coord
 * Organizador
 
 ### Partes interessadas e seus interesses
-+ Organizador: apos atribuircandidaturas pode prosseguir com o seu trabalho de organizar o evento.
++ Organizador: apos atribuir candidaturas pode prosseguir com o seu trabalho de organizar o evento.
 + FAE: é lhes atribuida uma candidatura para avaliarem e decidirem se essa pode participar no evento.
 + Centro de eventos: atribuir candidaturas permite que a organização dos eventos prossiga.
 
@@ -21,18 +21,18 @@ O organizador inicia o sistema e atribui as candidaturas de um dos eventos coord
 + Ficam atribuidas candidaturas aos FAE
 
 ### Cenário de sucesso principal (ou fluxo básico)
-1. O organizador inicia o sistema.
-2. O sistema fornece a sua lista de eventos.
+1. O organizador inicia a atribuição de candidaturas a FAE.
+2. O sistema fornece a sua lista de eventos com candidaturas por atribuir e solicita a selecção de um evento.
 3. O organizador escolhe um evento.
-4. O sistema fornece as candidaturas por atribuir aos FAE desse evento.
+4. O sistema apresenta uma lista das candidaturas por atribuir aos FAE desse evento.
 5. O organizador escolhe uma candidatura.
 6. O sistema fornece a lista de FAE responsáveis por esse evento.
 7. O organizador escolhe um FAE para avaliar a candidatura.
-8. O sistema retira a candidatura da lista de candidaturas por atribuir.
+8. O sistema atribui a candidatura ao FAE.
 9. Os passos 4 a 8 repetem-se até todas as candidaturas terem sido atribuidas.
-10. O sistema solicita confirmação da operação.
-11. O organizador confirma a operação.
-12. O sistema indica sucesso.
+10. O sistema apresenta as atribuições definidas e solicita confirmação.
+11. O organizador confirma.
+12. O sistema regista as atribuições de candidaturas a FAE indica sucesso.
 
 ### Extensões (ou fluxos alternativos)
 \*a. O utilizador (não registado) solicita cancelamento do registo.
