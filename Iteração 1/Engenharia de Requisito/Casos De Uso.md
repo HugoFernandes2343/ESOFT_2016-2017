@@ -1,7 +1,7 @@
 # Casos De Uso
 
 ## Diagrama De Casos De Uso
-![UseCaseDiagram.png](../../Imagens/UseCaseDiagram.png)
+![UseCaseDiagram.png](../Imagens/UseCaseDiagram.png)
 
 ## Casos De Uso
 
