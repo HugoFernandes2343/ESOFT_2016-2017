@@ -1,6 +1,11 @@
 # UC1 Criar Evento
 ## Formato breve
-O gestor de eventos inicia o sistema e intruduz no sistema os dados do evento nomeadamente o seu título, um texto descritivo do evento, o período de tempo e o local de realização e um conjunto de pessoas que estão responsaveis pela realização do evento(organizadores).
+O gestor de eventos inicia a criação de um evento.
+O sistema solicita os dados do evento (título, texto descritivo do evento, o período de tempo, o local de realização e o conjunto de organizadores).
+O gestor insere os dados solicitados.
+O sistema valida e apresenta os dados do evento e pede confirmação
+O gestor confirma os dados.
+O sistema regista o novo evento e informa do sucesso da operação.
 
 ## SSD de Formato breve
 ![SSD_UC1.png](../../Imagens/SSD_UC1.png)
@@ -23,11 +28,15 @@ O gestor de eventos inicia o sistema e intruduz no sistema os dados do evento no
 
 ### Cenário de sucesso principal (ou fluxo básico)
 1. O gestor de eventos inicia o registo do evento.
-2. O sistema solicita os dados do evento(titulo, descrição, periodo de realização, local de realização, organizadores encarregues).
+2. O sistema solicita os dados do evento(titulo, descrição, data de inicio, data de fim, local de realização).
 3. O gestor de eventos introduz os dados solicitados.
-4. O sistema valida os dados e solicita confirmação do gestor.
-5. O gestor confirma os dados.
-6. O sistema regista os dados e informa o gestor do sucesso da operação.
+4. O sistema solicita um organizador para o evento.
+5. O gestor de eventos insere um organizador.
+6. O sistema valida o organizador e adiciona-o ao evento.
+7. Os passos 4 a 6 repetem-se até que todos os organizadores tenham sido adicionados ao evento.
+8. O sistema apresenta todos os dados e solicita confirmação do gestor.
+9. O gestor confirma os dados.
+10. O sistema regista o novo evento e informa o gestor do sucesso da operação.
 
 ### Extensões (ou fluxos alternativos)
 \*a. O gestor solicita o cancelamento do registo.
