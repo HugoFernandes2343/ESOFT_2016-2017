@@ -1,14 +1,44 @@
 # Análise OO
+## Tabela de Categorias
+| Categoria                                                         | Conceito |
+|-------------------------------------------------------------------|----------|
+| Transações(do negócio)                                            |Candidatura, Decisão de candidatura|
+| Linhas de transações                                              |     /    |
+| Produtos ou serviços relacionados com transações                  |     /    |
+| Registos (de transações)                                          |     /    |
+| Papéis das pessoas                                                |Utilizador, Gestor de eventos, Organizadores, FAE, Representante do Participante|
+| Lugares                                                           |Local,Centro de eventos|
+| Eventos                                                           |Eventos   |
+| Objetos físicos                                                   |     /    |
+| Especificações e descrições                                       |     /    |
+| Catálogos                                                         |     /    |
+| Conjuntos (containers)                                            |Registo   |
+| Elementos de conjuntos                                            |     /    |
+| (Outras) Organizações                                             |Participantes|
+| Outros sistemas (externos)                                        |     /    |
+| Registos (financeiros), de trabalho, contratos, documentos legais |Registo de utilizadores|
+| Intrumentos financeiros                                           |     /    |
+| Documentos referidos/para executar as tarefas                     |     /    |
+
 ## Tabela de conceitos
 
-| Classe 1                                             | Ação        | Class 2       |
-|------------------------------------------------------|-------------|---------------|
-| Gestor de eventos                                    | Cria        | Evento        |
-| Evento                                               | Tem         | Organizadores |
-| Organizadores                                        | Nomeam      | FAE           |
-| Representante                                        | Faz         | Candidatura   |
-| Organizador                                          | Recebe      | Candidatura   |
-| Organizador                                          | Distribui   | FAE           |
-| FAE                                                  | Avalia      | Candidatura   |
-| Gestor de eventos, Organizadores, FAE, Participantes | Registam-se | Registo       |
-| Gestor de eventos                                    | Confirma    | Registo       |
+| Conceito 1                                           | Associação    | Conceito 2         |
+|------------------------------------------------------|---------------|--------------------|
+| Gestor de eventos                                    | Cria          | Evento             |
+|                                                      | Confirma      | Utilizador pendente|
+|                                                      | É             | Utilizador         |
+| Evento                                               | Tem           | Organizadores      |
+|                                                      | Realiza-se num| Local              |
+| Organizador                                          | Nomeam        | FAE                |
+|                                                      | Recebe        | Candidatura        |
+|                                                      | Distribui     | FAE                |
+|                                                      | É             | Utilizador         |
+| Representante                                        | Faz           | Candidatura        |
+| Participante                                         | Tem           | Representante      |
+|                                                      | É             | Utilizador         |
+| FAE                                                  | Avalia        | Candidatura        |
+|                                                      | É             | Utilizador         |
+| Centro de eventos                                    | Tem           | Utilizador         |  
+
+## Modelo de dominio
+![Análise OO.png](Imagens/Análise OO.png)
