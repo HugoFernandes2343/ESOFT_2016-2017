@@ -1,6 +1,14 @@
 # UC5 Avaliar candidaturas
 ## Formato breve
-O FAE fornece-lhe as candidaturas que lhe foram atribuidas. Após avaliar as candidaturas o FAE indica no sistema para cada uma se foi aceite ou recusada junto com um texto justificativo.
+O FAE inicia o sistema.
+O sistema apresenta candidaturas por avaliar.
+O FAE escolhe candidatura.
+O sistema apresenta detalhes de candidatura.
+O FAE avalia a candidatura e justifica a avaliação.
+O sistema pede confirmação.
+O FAE confirma.
+O sistema indica sucesso e remove a candidatura da lista.
+
 ## SSD de formato breve
 ![SSD_UC5.png](../../Imagens/SSD_UC5.png)
 ## Formato completo

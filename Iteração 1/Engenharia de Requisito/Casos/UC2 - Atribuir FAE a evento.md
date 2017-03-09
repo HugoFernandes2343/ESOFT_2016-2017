@@ -1,6 +1,13 @@
 # UC2 Atribui FAE a evento
 ## Formato breve
-O organizador inicia o sistema, insere as suas credenciais, diz qual é o evento a qual quer atribuir FAE, e quais são estes FAE.
+O organizador inicia o sistema.
+O sistema pede o nome do evento.
+O organizador introduz nome.
+O sistema pede lista de FAE.
+O organizador introduz a lista de FAE.
+O sistema pede confirmação.
+O organizador confirma.
+O sistema indica sucesso.
 ## SSD de formato breve
 ![SSD_UC2.png](../../Imagens/SSD_UC2.png)
 ## Formato completo

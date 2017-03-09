@@ -1,6 +1,15 @@
 # UC4 Atribuir candidaturas
 ## Formato breve
-O organizador inicia o sistema e atribui as candidaturas de um dos eventos coordenados por ele aos FAE reponsáveis pelo evento para que possa ser avaliada.
+O Organizador inicia o sistema.
+O sistema mostra a lista de eventos.
+O Organizador escolhe o evento.
+O sistema mostra as candidaturas para o evento.
+O organizador escolhe as candidaturas.
+O sistema mostra a lista dos FAE.
+O Organizador escolhe os FAE.
+O sistema pede confirmação.
+O Organizador confirma.
+O sistema indica sucesso.
 
 ## SSD de formato breve
 ![SSD_UC4.png](../../Imagens/SSD_UC4.png)

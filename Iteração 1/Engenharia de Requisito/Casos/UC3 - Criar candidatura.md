@@ -1,6 +1,11 @@
 # UC3 Criar candidatura
 ## Formato breve
-O representante do participante fará uma candidatura para participar num dos eventos listados na aplicação. Uma vez criada a candidatura, o representante terá de aguardar pela aprovação da candidatura por parte das FAE.
+O Representante inicia a candidatura.
+O sistema pede os dados.
+O Representante introduz os dados.
+O sistema valida e pede confirmação.
+O Representante confirma.
+O sistema guarda a candidatura e apresenta sucesso.
 ## SSD de formato breve
 ![SSD_UC3.png](../../Imagens/SSD_UC3.png)
 ## Formato completo
