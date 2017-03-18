@@ -26,15 +26,15 @@ O sistema indica sucesso.
 
 ### Cenário de sucesso principal (ou fluxo básico)
 1. O organizador inicia o sistema.
-2. O sistema pede o nome do evento.
-3. O organizador introduz o nome do evento.
-4. O sistema valida os dados e solicita confirmação
-5. O organizador confirma o nome
-6. O sistema pede a lista de FAE
-7. O organizador introduz a lista
-8. O sistema valida os dados e pede confirmação
-9. O utilizador confirma
-10. O sistema regista os dados indica sucesso
+2. O sistema procura os eventos do organizador e mostra a lista de eventos.
+3. O organizador seleciona o do evento.
+4. O sistema pede a identificação do utilizador.
+5. O organizador introduz o utilizador.  
+6. O sistema valida o utilizador e adiciona-o como FAE do evento.  
+7. Os passos 4 a 6 repetem-se até todos os FAE estarem introduzidos.
+8. O sistema pede confirmação dos dados introduzidos.
+9. O utilizador confirma os utilizadores introduzidos.
+10. O sistema regista os utilizadores como FAE do evento e indica sucesso.
 
 
 ### Extensões (ou fluxos alternativos)
@@ -44,28 +44,21 @@ O sistema indica sucesso.
  + O caso de uso termina.
 
 
-4a. Dados mínimos obrigatórios em falta.
+3a. Dados mínimos obrigatórios em falta.
 
 1. O sistema informa quais os dados em falta.
 2. O sistema permite a introdução dos dados em falta (passo 3)
 
     2.a O organizador não altera os dados. O caso de uso termina.
 
-4b. O organizador nâo está encarregue do evento em questao
-
-1. O sistema informa o organizador do facto
-2. O sistema pede ao organizador par introduzir o nome do evento outra vez
-
-  2a. O organizador nao muda o nome. O caso de uso termina.
-
-8a.  Dados mínimos obrigatórios em falta.
+5a.  Dados mínimos obrigatórios em falta.
 
 1. O sistema informa quais os dados em falta.
 2. O sistema permite a introdução dos dados em falta (passo 3)
 
     2.a O organizador não altera os dados. O caso de uso termina.
 
-8b. O sistema detecta que os dados introduzidos (ou algum subconjunto dos dados) são inválidos.
+5b. O sistema detecta que os dados introduzidos (ou algum subconjunto dos dados) são inválidos.
 
 1. O sistema alerta o organizador para o facto.
 2. O sistema permite a sua alteração (passo 3)
