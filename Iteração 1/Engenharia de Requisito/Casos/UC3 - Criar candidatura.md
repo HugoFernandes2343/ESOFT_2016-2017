@@ -31,7 +31,7 @@ O sistema guarda a candidatura e apresenta sucesso.
 3. O representante do participante (com a candidatura não registada) introduz os dados solicitados.
 4. O sistema valida e solicita que o representante do participante (com a candidatura não registada) confirme os dados inseridos.
 5. O representante do participante (com a candidatura não registada) confirma a candidatura.
-6. O sistema regista a candidatura e informa o representante do participante (com a candidatura não registada) do sucesso da operação.
+6. O sistema regista a candidatura e informa o representante do participante do sucesso da operação.
 
 ### Extensões (ou fluxos alternativos)
 \*a. O representante do participante (com a candidatura não registada) solicita cancelamento do registo.

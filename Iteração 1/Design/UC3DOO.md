@@ -1,0 +1,11 @@
+# Design UC3 - Criar candidatura
+
+| Cenário principal                                                                                                                 | Questão: Que classe deve...  | Resposta    | Justificação                                                            |
+|-----------------------------------------------------------------------------------------------------------------------------------|------------------------------|-------------|-------------------------------------------------------------------------|
+| 1. O representante do participante inicia o registo da candidatura.                                                               | n/a                          |             |                                                                         |
+| 2. O sistema solicita os dados da candidatura.                                                                                    | ...armazenar os dados?       | Candidatura | Creator                                                                 |
+|                                                                                                                                   | ...instanciar a candidatura? |             |                                                                         |
+| 3. O representante do participante (com a candidatura não registada) introduz os dados solicitados.                               | n/a                          |             |                                                                         |
+| 4. O sistema valida e solicita que o representante do participante (com a candidatura não registada) confirme os dados inseridos. | ...armazenar a candidatura?  | Evento      | IE: é a classe que armazena toda a informação dos eventos.              |
+| 5. O representante do participante (com a candidatura não registada) confirma a candidatura.                                      | n/a                          |             |                                                                         |
+| 6. O sistema regista a candidatura e informa o representante do participante do sucesso da operação.                              | ...gravar a candidatura?     | Evento      | IE: é  a classe responsável por gravar todos as candidaturas do evento. |
