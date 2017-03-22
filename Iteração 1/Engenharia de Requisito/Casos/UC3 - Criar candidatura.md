@@ -26,19 +26,21 @@ O sistema guarda a candidatura e apresenta sucesso.
 * O registo da candidatura fica armezenado no sistema.
 
 ### Cenário de sucesso principal (ou fluxo básico)
-1. O representante do participante inicia o registo da candidatura.
-2. O sistema solicita os dados da candidatura.
-3. O representante do participante (com a candidatura não registada) introduz os dados solicitados.
-4. O sistema valida e solicita que o representante do participante (com a candidatura não registada) confirme os dados inseridos.
-5. O representante do participante (com a candidatura não registada) confirma a candidatura.
-6. O sistema regista a candidatura e informa o representante do participante do sucesso da operação.
+1. O representante inicia o sistema.
+2. O sistema procura os eventos disponiveis e mostra a lista de eventos.
+3. O representante seleciona o evento e inicia o registo da candidatura.
+4. O sistema solicita os dados da candidatura.
+5. O representante do participante (com a candidatura não registada) introduz os dados solicitados.
+6. O sistema valida e solicita que o representante do participante (com a candidatura não registada) confirme os dados inseridos.
+7. O representante do participante (com a candidatura não registada) confirma a candidatura.
+8. O sistema regista a candidatura e informa o representante do participante do sucesso da operação.
 
 ### Extensões (ou fluxos alternativos)
 \*a. O representante do participante (com a candidatura não registada) solicita cancelamento do registo.
 
 + O caso de uso termina.
 
-4a. Dados mínimos obrigatórios em falta.
+6a. Dados mínimos obrigatórios em falta.
 
 1. O sistema informa quais os dados em falta.
 2. O sistema permite a introdução dos dados em falta (passo 3)
@@ -46,14 +48,14 @@ O sistema guarda a candidatura e apresenta sucesso.
     2.a O representante do participante (com a candidatura não registada) não altera os dados. O caso de uso termina.
 
 
-4b. O sistema detecta que os dados (ou algum subconjunto dos dados) introduzidos devem ser únicos e que já existem no sistema.
+6b. O sistema detecta que os dados (ou algum subconjunto dos dados) introduzidos devem ser únicos e que já existem no sistema.
 
 1. O sistema alerta O representante do participante para o facto.
 2. O sistema permite a sua alteração (passo 3)
 
     2a. O representante do participante (com a candidatura não registada) não altera os dados. O caso de uso termina.
 
-4c. O sistema detecta que os dados introduzidos (ou algum subconjunto dos dados) são inválidos.
+6c. O sistema detecta que os dados introduzidos (ou algum subconjunto dos dados) são inválidos.
 
 1. O sistema alerta o representante do participante para o facto.
 2. O sistema permite a sua alteração (passo 3)

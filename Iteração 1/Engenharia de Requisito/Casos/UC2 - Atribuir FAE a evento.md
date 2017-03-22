@@ -34,7 +34,7 @@ O sistema indica sucesso.
 7. Os passos 4 a 6 repetem-se até todos os FAE estarem introduzidos.
 8. O sistema pede confirmação dos dados introduzidos.
 9. O utilizador confirma os utilizadores introduzidos.
-10. O sistema regista os utilizadores como FAE do evento e indica sucesso.
+10. O sistema indica sucesso.
 
 
 ### Extensões (ou fluxos alternativos)
