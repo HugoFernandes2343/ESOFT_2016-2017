@@ -28,21 +28,32 @@ O sistema indica sucesso e remove a candidatura da lista.
 + As candidaturas encontram-se avaliadas e aceites/recusadas no sistema.
 
 ### Cenário de sucesso principal (ou fluxo básico)
-1. O FAE inicia o sistema.
-2. O sistema apresenta as candidaturas que foram atribuidas ao FAE que ainda não foram avaliadas.
-3. O FAE escolhe uma candidatura da lista para avaliar.
-4. O sistema apresenta a informação da candidatura
-5. O FAE aceita ou recusa a candidatura e justifica com um texto.
-6. O sistema pede confirmação.
-7. O FAE confirma.
+1. O FAE inicia a avaliação de candidaturas.
+2. O sistema apresenta os eventos do FAE com candidaturas por avaliar.
+3. O FAE seleciona o evento.
+4. O sistema apresenta as candidaturas que foram atribuidas ao FAE que ainda não foram avaliadas.
+5. O FAE escolhe uma candidatura da lista para avaliar.
+6. O sistema apresenta a informação da candidatura e solicita a avaliação e justificação.
+7. O FAE aceita ou recusa a candidatura e justifica com um texto.
 8. O sistema remove a candidatura da lista de candidaturas por avaliar.
-9. Os passos 2 a 8 repetem-se até que todas as candidaturas estejam avaliadas.
-10. O sistema indica sucesso.
+9. Os passos 4 a 8 repetem-se até que todas as candidaturas do evento do FAE estejam avaliadas.
+10. Os passos 2 a 9 repetem-se até que todas as candidaturas de todos os eventos do FAE estejam avaliadas. 
+11. O sistema mostra todas as candidaturas avaliadas e pede confirmação.
+12. O FAE confirma.
+13. O sistema grava as avaliações das candidaturas e indica sucesso.
 
 ### Extensões (ou fluxos alternativos)
 \*a. O FAE solicita cancelamento do registo.
 
 + O caso de uso termina.
+
+4a. O evento não possuí nenhuma candidatura para ser avaliada pelo FAE atual.
+
+1. O sistema informa que aquele evento não tem nenhuma candidatura para ser avaliada pelo FAE.
+2. O sistema permite a introdução de um novo evento (passo 3)
+
+    2.a O FAE não insere outro evento. O caso de uso termina.
+
 
 ## Requisitos especiais
 *
