@@ -31,7 +31,7 @@ O sistema guarda a candidatura e apresenta sucesso.
 3. O representante seleciona o evento e inicia o registo da candidatura.
 4. O sistema solicita os dados da candidatura.
 5. O representante do participante (com a candidatura não registada) introduz os dados solicitados.
-6. O sistema valida e solicita que o representante do participante (com a candidatura não registada) confirme os dados inseridos.
+6. O sistema solicita que o representante do participante (com a candidatura não registada) confirme os dados inseridos.
 7. O representante do participante (com a candidatura não registada) confirma a candidatura.
 8. O sistema regista a candidatura e informa o representante do participante do sucesso da operação.
 
