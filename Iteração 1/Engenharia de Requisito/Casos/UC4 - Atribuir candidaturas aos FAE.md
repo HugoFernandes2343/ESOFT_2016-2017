@@ -39,10 +39,9 @@ O sistema indica sucesso.
 7. O organizador escolhe um FAE para avaliar a candidatura.
 8. O sistema atribui a candidatura ao FAE.
 9. Os passos 4 a 8 repetem-se até todas as candidaturas do evento terem sido atribuidas.
-10. Os passos 2 a 9 repetem-se até todas as candidaturas de todos os eventos do organizador terem sido atribuidas.
-11. O sistema apresenta as atribuições definidas e solicita confirmação.
-12. O organizador confirma.
-13. O sistema regista as atribuições de candidaturas a FAE e indica sucesso.
+10. O sistema apresenta as atribuições definidas e solicita confirmação.
+11. O organizador confirma.
+12. O sistema regista as atribuições de candidaturas a FAE e indica sucesso.
 
 ### Extensões (ou fluxos alternativos)
 \*a. O utilizador (não registado) solicita cancelamento do registo.

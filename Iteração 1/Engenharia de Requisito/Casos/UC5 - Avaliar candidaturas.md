@@ -37,10 +37,9 @@ O sistema indica sucesso e remove a candidatura da lista.
 7. O FAE aceita ou recusa a candidatura e justifica com um texto.
 8. O sistema remove a candidatura da lista de candidaturas por avaliar.
 9. Os passos 4 a 8 repetem-se até que todas as candidaturas do evento do FAE estejam avaliadas.
-10. Os passos 2 a 9 repetem-se até que todas as candidaturas de todos os eventos do FAE estejam avaliadas. 
-11. O sistema mostra todas as candidaturas avaliadas e pede confirmação.
-12. O FAE confirma.
-13. O sistema grava as avaliações das candidaturas e indica sucesso.
+10. O sistema mostra todas as candidaturas avaliadas e pede confirmação.
+11. O FAE confirma.
+12. O sistema grava as avaliações das candidaturas e indica sucesso.
 
 ### Extensões (ou fluxos alternativos)
 \*a. O FAE solicita cancelamento do registo.
