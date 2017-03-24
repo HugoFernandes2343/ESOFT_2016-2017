@@ -1,5 +1,7 @@
 # Design UC2 - Atribuir FAE a evento
 
+## Racional ##
+
 | Cenário principal                                                          | Questão: Que classe deve...               | Resposta          | Justificação                                                      |
 |----------------------------------------------------------------------------|-------------------------------------------|-------------------|-------------------------------------------------------------------|
 | 1. O organizador inicia o sistema.                                         | n/a                                       |                   |                                                                   |

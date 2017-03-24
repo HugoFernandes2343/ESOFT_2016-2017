@@ -16,13 +16,17 @@ Participante: ser confirmado pelo gestor de forma a passar
 ### Pós-condições
 + Os utilizadores foram confirmados no sistema.
 ### Cenário de sucesso principal (ou fluxo básico)
-1. O gestor inicia a confirmação de registo.
-2. O sistema apresenta a lista de utilizadores nao confirmados.
+1. O gestor inicia a confirmação de registo de utilizador.
+2. O sistema apresenta a lista de utilizadores não confirmados.
 3. O gestor seleciona o utilizador.
 4. O sistema solicita confirmação.
 5. O gestor confirma o registo.
-6. O sistema remove o utilizador da lista e indica sucesso.
+6. O sistema remove o utilizador da lista de utilizadores não registados.
 7. Os passos 2 a 6 repetem-se até os utilizadores estarem confirmados.
+8. O sistema mostra todos os utilizadores que foram avaliados e solicita confirmação.
+9. O gestor confirma.
+10. O sistema guarda os utilizadores como registados e indica sucesso.
+
 ### Extensões (ou fluxos alternativos)
 \*a O gestor de eventos solicita cancelamento do processo.
 
