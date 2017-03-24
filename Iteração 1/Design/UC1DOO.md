@@ -16,3 +16,11 @@
 | 8. O sistema apresenta todos os dados e solicita confirmação do gestor.                                        | n/a                         |                   |                                                                                                                       |
 | 9. O gestor confirma os dados.                                                                                 | n/a                         |                   |                                                                                                                       |
 | 10. O sistema regista o novo evento e informa o gestor do sucesso da operação.                                 | ...registar o evento?       | Centro de eventos | IE: É a classe responsável por armazenar os eventos                                                                  |                                                                              
+
+
+##	Diagrama de Sequência ##
+![UC1-Criar_Evento-SD.png](../Imagens/Desing/UC1-Cria_Evento-SD.png)
+
+
+##	Diagrama de Classes ##
+![UC1-Criar_Evento-ClassDiagram.png](../Imagens/Desing/UC1-Criar_Evento-ClassDiagram.png)

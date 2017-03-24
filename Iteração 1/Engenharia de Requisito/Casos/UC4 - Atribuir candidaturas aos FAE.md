@@ -48,6 +48,8 @@ O sistema indica sucesso.
 
 + O caso de uso termina.
 
+11a. O organizador não confirma.
+1. Nada é guardado permanentemente e os registos temporarios sao apagados.
 ## Requisitos especiais
 *
 ## Listas de variações em tecnologias e dados

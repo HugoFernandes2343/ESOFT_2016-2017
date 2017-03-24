@@ -19,19 +19,19 @@ Participante: ser confirmado pelo gestor de forma a passar
 1. O gestor inicia a confirmação de registo de utilizador.
 2. O sistema apresenta a lista de utilizadores não confirmados.
 3. O gestor seleciona o utilizador.
-4. O sistema solicita confirmação.
-5. O gestor confirma o registo.
-6. O sistema remove o utilizador da lista de utilizadores não registados.
-7. Os passos 2 a 6 repetem-se até os utilizadores estarem confirmados.
-8. O sistema mostra todos os utilizadores que foram avaliados e solicita confirmação.
-9. O gestor confirma.
-10. O sistema guarda os utilizadores como registados e indica sucesso.
+4. O sistema remove o utilizador da lista de utilizadores não registados.
+5. Os passos 2 a 6 repetem-se até os utilizadores estarem confirmados.
+6. O sistema mostra todos os utilizadores que foram avaliados e solicita confirmação.
+7. O gestor confirma.
+8. O sistema guarda os utilizadores como registados e indica sucesso.
 
 ### Extensões (ou fluxos alternativos)
 \*a O gestor de eventos solicita cancelamento do processo.
 
 + O caso de uso termina.
 
+7a. O gestor não confirma.
+1. Nada é guardado permanentemente e os registos temporarios sao apagados. 
 ## Requisitos especiais
 *
 ## Listas de variações em tecnologias e dados

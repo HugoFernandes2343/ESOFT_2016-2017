@@ -60,6 +60,8 @@ O sistema regista o novo evento e informa do sucesso da operação.
 2. O sistema permite a alteração dos dados(passo 3).
   2.a O utilizador não altera os dados. O caso de uso termina.
 
+10a. O gestor não confirma.
+1. Nada é guardado permanentemente e os registos temporarios sao apagados.
 ## Requisitos especiais
 *
 

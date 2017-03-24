@@ -62,6 +62,8 @@ O sistema guarda a candidatura e apresenta sucesso.
 
     2a. O representante do participante (com a candidatura não registada) não altera os dados. O caso de uso termina.
 
+7a. O representante do participante não confirma.
+1. Nada é guardado permanentemente e os registos temporarios sao apagados.
 
 ## Requisitos especiais
 *

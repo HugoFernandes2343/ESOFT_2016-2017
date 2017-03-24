@@ -16,3 +16,13 @@
 | 10. O sistema apresenta as atribuições definidas e solicita confirmação.                                           | n/a                                                        |                   |                                                                                             |
 | 11. O organizador confirma.                                                                                        | n/a                                                        |                   |                                                                                             |
 | 12. O sistema regista as atribuições de candidaturas a FAE e indica sucesso.                                       | ...gravar as atribuições?                                  | Evento            | IE: é a classe responsável por armazenar as atribuições das candidaturas por avaliar e FAE. |
+
+
+
+
+##	Diagrama de Sequência ##
+![UC4-Atribuir_Candidatura-SD.png](../Imagens/Desing/UC4-Atribuir_Candidatura-SD.png)
+
+
+##	Diagrama de Classes ##
+![UC4-Atribuir_Candidatura-ClassDiagram.png](../Imagens/Desing/UC4-Atribuir_Candidatura-ClassDiagram.png)

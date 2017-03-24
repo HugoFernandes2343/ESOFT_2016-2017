@@ -17,3 +17,11 @@
 | 8. O sistema pede confirmação dos dados introduzidos.                      | n/a                                       |                   |                                                                   |
 | 9. O utilizador confirma os utilizadores introduzidos.                     | n/a                                       |                   |                                                                   |
 | 10. O sistema indica sucesso.                                              | n/a                                       |                   |                                                                   | |
+
+
+##	Diagrama de Sequência ##
+![UC2-Atribuir_FAE-SD.png](../Imagens/Desing/UC2-Atribuir_FAE-SD.png)
+
+
+##	Diagrama de Classes ##
+![UC2-Atribuir_FAE-ClassDiagram.png](../Imagens/Desing/UC2-Atribuir_FAE-ClassDiagram.png)

@@ -13,3 +13,13 @@
 | 6. O sistema solicita que o representante do participante (com a candidatura não registada) confirme os dados inseridos.   |                                     |                    |                                                                    |
 | 7. O representante do participante (com a candidatura não registada) confirma a candidatura.                                      | n/a                                |                    |                                                                    |
 | 8. O sistema regista a candidatura e informa o representante do participante do sucesso da operação.                              | ...guardar a candidatura?          | Evento             | IE: é a classe responsável por armazenar todas as candidaturas.    |
+
+
+
+
+##	Diagrama de Sequência ##
+![UC3-Criar_Candidatura-SD.png](../Imagens/Desing/UC3-Criar_Candidatura-SD.png)
+
+
+##	Diagrama de Classes ##
+![UC3-Criar_Candidatura-ClassDiagram.png](../Imagens/Desing/UC3-Criar_Candidatura-ClassDiagram.png)

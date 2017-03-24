@@ -53,7 +53,8 @@ O sistema indica sucesso e remove a candidatura da lista.
 
     2.a O FAE não insere outro evento. O caso de uso termina.
 
-
+11a. O FAE não confirma.
+1. Nada é guardado permanentemente e os registos temporarios sao apagados. 
 ## Requisitos especiais
 *
 

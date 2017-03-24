@@ -17,3 +17,12 @@
 | 10. O sistema mostra todas as candidaturas avaliadas e respetiva avaliação e pede confirmação.             | n/a                                                                   |                   |                                                                                                           |
 | 11. O FAE confirma.                                                                                        | n/a                                                                   |                   |                                                                                                           |
 | 12. O sistema grava as avaliações das candidaturas e indica sucesso.                                       | ...gravar a avaliação da candidatura?                                 | Atribuição        | IE: é a classe responsável por armazenar a avaliação da candidatura.                                      |
+
+
+
+##	Diagrama de Sequência ##
+![UC5-Avaliar_Candidatura-SD.png](../Imagens/Desing/UC5-Avaliar_Candidatura-SD.png)
+
+
+##	Diagrama de Classes ##
+![UC5-Avaliar_Candidatura-ClassDiagram.png](../Imagens/Desing/UC5-Avaliar_Candidatura-ClassDiagram.png)
