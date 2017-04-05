@@ -31,7 +31,7 @@ Participante: ser confirmado pelo gestor de forma a passar
 + O caso de uso termina.
 
 7a. O gestor não confirma.
-1. Nada é guardado permanentemente e os registos temporarios sao apagados. 
+1. Nada é guardado permanentemente e os registos temporarios sao apagados.
 ## Requisitos especiais
 *
 ## Listas de variações em tecnologias e dados
@@ -41,4 +41,3 @@ Participante: ser confirmado pelo gestor de forma a passar
 ## Questões em aberto
 + Quão frequente é este caso de uso?
 + O gestor pode recusar utilizadores?
-+ Se não ouver gestores registados ainda como se confirma?

@@ -1,9 +1,11 @@
 # UC1 Criar Evento
 ## Formato breve
 O gestor de eventos inicia a criação de um evento.
-O sistema solicita os dados do evento (título, texto descritivo do evento, o período de tempo, o local de realização e o conjunto de organizadores).
+O sistema solicita o tipo de evento (Congresso ou Exposição).
+O gestor de eventos introduz o tipo de evento.
+O sistema solicita os dados do evento.
 O gestor insere os dados solicitados.
-O sistema valida e apresenta os dados do evento e pede confirmação
+O sistema valida e apresenta os dados e tipo do evento e pede confirmação.
 O gestor confirma os dados.
 O sistema regista o novo evento e informa do sucesso da operação.
 
@@ -28,37 +30,61 @@ O sistema regista o novo evento e informa do sucesso da operação.
 
 ### Cenário de sucesso principal (ou fluxo básico)
 1. O gestor de eventos inicia o registo do evento.
-2. O sistema solicita os dados do evento(titulo, descrição, data de inicio, data de fim, local de realização).
-3. O gestor de eventos introduz os dados solicitados.
-4. O sistema solicita um organizador para o evento.
-5. O gestor de eventos insere um organizador.
-6. O sistema valida o organizador e adiciona-o ao evento.
-7. Os passos 4 a 6 repetem-se até que todos os organizadores tenham sido adicionados ao evento.
-8. O sistema apresenta todos os dados e solicita confirmação do gestor.
-9. O gestor confirma os dados.
-10. O sistema regista o novo evento e informa o gestor do sucesso da operação.
+2. O sistema solicita o tipo de evento(Congresso ou Exposição).
+3. O gestor de eventos seleciona o tipo de evento.
+4. O sistema solicita os dados do evento(titulo, descrição, data de inicio, data de fim, data limite de submissão de candidaturas e local de realização).
+5. O gestor de eventos introduz os dados solicitados.
+6. O sistema solicita um organizador para o evento.
+7. O gestor de eventos insere um organizador.
+8. O sistema valida o organizador e adiciona-o ao evento.
+9. Os passos 6 a 8 repetem-se até que todos os organizadores tenham sido adicionados e no minimo tenham sido adicionados dois organizadores ao evento.
+10. O sistema apresenta todos os dados e solicita confirmação do gestor.
+11. O gestor confirma os dados.
+12. O sistema regista o novo evento e informa o gestor do sucesso da operação.
 
 ### Extensões (ou fluxos alternativos)
 \*a. O gestor solicita o cancelamento do registo.
 
 + O caso de uso termina.
 
-4a. O sistema detecta dados minimos obrigatórios em falta.
+3a. O sistema detecta dados minimos obrigatórios em falta.
 1. O sistema informa quais são os dados em falta.
-2. O sistema permite a introdução dos dados em falta(passo 3).
+2. O sistema permite a introdução dos dados em falta(passo 2).
 
   2.a O gestor não altera os dados. O caso de termina.
 
-4b. O sistema detecta que os dados(ou algum subconjunto destes) intrudozidos devem ser únicos mas já existem no sistema.
+3b. O sistema detecta que os dados(ou algum subconjunto destes) introduzidos devem ser únicos mas já existem no sistema.
 
 1. O sistema avisa o gestor do facto.
-2. O sistema permite a alteração dos dados(passo 3).
+2. O sistema permite a alteração dos dados(passo 2).
   2.a O gestor não altera os dados. O caso de uso termina.
 
-4c. O sistema detecta que os dados(ou algum subconjunto destes) são inválidos.
+3c. O sistema detecta que os dados(ou algum subconjunto destes) são inválidos.
 1. O sistema avisa o gestor do facto.
-2. O sistema permite a alteração dos dados(passo 3).
+2. O sistema permite a alteração dos dados(passo 2).
   2.a O utilizador não altera os dados. O caso de uso termina.
+
+5a. O sistema detecta dados minimos obrigatórios em falta.
+1. O sistema informa quais são os dados em falta.
+2. O sistema permite a introdução dos dados em falta(passo 4).
+
+  2.a O gestor não altera os dados. O caso de termina.
+
+5b. O sistema detecta que os dados(ou algum subconjunto destes) introduzidos devem ser únicos mas já existem no sistema.
+
+1. O sistema avisa o gestor do facto.
+2. O sistema permite a alteração dos dados(passo 4).
+  2.a O gestor não altera os dados. O caso de uso termina.
+
+5c. O sistema detecta que os dados(ou algum subconjunto destes) são inválidos.
+1. O sistema avisa o gestor do facto.
+2. O sistema permite a alteração dos dados(passo 4).
+  2.a O utilizador não altera os dados. O caso de uso termina.
+
+8a. O sistema deteta que o número de organizadores introduzidos é inferior a dois.
+1. O sistema avisa o gestor do facto.
+2. O sistema permite adicionar mais organizadores(passo 6).
+  2.a O gestor de eventos não altera os dados. O caso de uso termina.  
 
 10a. O gestor não confirma.
 1. Nada é guardado permanentemente e os registos temporarios sao apagados.
@@ -72,7 +98,6 @@ O sistema regista o novo evento e informa do sucesso da operação.
 *
 
 ## Questões em aberto
-+ Quais são os dados obrigatórios para a criação do evento?
 + Podem existir eventos com o mesmo nome desde que a data e/ou o local sejam diferentes?
 + Como é que o gestor pode cancelar um evento?
 + Como são informados os organizadores que vão estar encarregues deste evento ?
