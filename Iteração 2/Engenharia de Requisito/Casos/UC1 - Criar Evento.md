@@ -47,23 +47,6 @@ O sistema regista o novo evento e informa do sucesso da operação.
 
 + O caso de uso termina.
 
-3a. O sistema detecta dados minimos obrigatórios em falta.
-1. O sistema informa quais são os dados em falta.
-2. O sistema permite a introdução dos dados em falta(passo 2).
-
-  2.a O gestor não altera os dados. O caso de termina.
-
-3b. O sistema detecta que os dados(ou algum subconjunto destes) introduzidos devem ser únicos mas já existem no sistema.
-
-1. O sistema avisa o gestor do facto.
-2. O sistema permite a alteração dos dados(passo 2).
-  2.a O gestor não altera os dados. O caso de uso termina.
-
-3c. O sistema detecta que os dados(ou algum subconjunto destes) são inválidos.
-1. O sistema avisa o gestor do facto.
-2. O sistema permite a alteração dos dados(passo 2).
-  2.a O utilizador não altera os dados. O caso de uso termina.
-
 5a. O sistema detecta dados minimos obrigatórios em falta.
 1. O sistema informa quais são os dados em falta.
 2. O sistema permite a introdução dos dados em falta(passo 4).
@@ -81,12 +64,12 @@ O sistema regista o novo evento e informa do sucesso da operação.
 2. O sistema permite a alteração dos dados(passo 4).
   2.a O utilizador não altera os dados. O caso de uso termina.
 
-8a. O sistema deteta que o número de organizadores introduzidos é inferior a dois.
+9a. O sistema deteta que o número de organizadores introduzidos é inferior a dois.
 1. O sistema avisa o gestor do facto.
 2. O sistema permite adicionar mais organizadores(passo 6).
   2.a O gestor de eventos não altera os dados. O caso de uso termina.  
 
-10a. O gestor não confirma.
+11a. O gestor não confirma.
 1. Nada é guardado permanentemente e os registos temporarios sao apagados.
 ## Requisitos especiais
 *

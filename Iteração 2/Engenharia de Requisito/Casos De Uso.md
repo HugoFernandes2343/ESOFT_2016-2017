@@ -12,3 +12,5 @@
 * [UC5 - Avaliar candidaturas](Casos/UC5 - Validar candidaturas)
 * [UC6 - Registar Utilizador](Casos/UC6 - Registar Utilizador)
 * [UC7 - Confirmar Registo de Utilizador](Casos/UC7 - Confirmar Registo de Utilizador)
+* [UC8 - Registar Gestor de Eventos](Casos/UC8 - Registar gestor de eventos)
+* [UC9 - Criar Workshop](Casos/UC9 - Criar workshop)

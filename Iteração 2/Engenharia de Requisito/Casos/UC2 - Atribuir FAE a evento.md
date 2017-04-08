@@ -27,7 +27,7 @@ O sistema indica sucesso.
 ### Cenário de sucesso principal (ou fluxo básico)
 1. O organizador inicia o sistema.
 2. O sistema procura os eventos do organizador e mostra a lista de eventos.
-3. O organizador seleciona o do evento.
+3. O organizador seleciona o evento.
 4. O sistema pede a identificação do utilizador.
 5. O organizador introduz o utilizador.  
 6. O sistema valida o utilizador e adiciona-o como FAE do evento.  

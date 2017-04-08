@@ -1,4 +1,4 @@
-# UC6 Registar utilizador
+# UC6 Registar Utilizador
 ##	Formato breve
 O utilizador não registado introduz no sistema os seus dados (nome, username, e-mail, password). O sistema valida os dados e pede confirmação. O utilizador confirma os dados inseridos. O sistema regista os dados e informa o utilizador do sucesso da operação.
 

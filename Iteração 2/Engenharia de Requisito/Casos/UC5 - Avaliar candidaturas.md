@@ -1,4 +1,4 @@
-# UC5 Avaliar candidaturas
+# UC5 Avaliar Candidaturas
 ## Formato breve
 O FAE inicia o sistema.
 O sistema apresenta candidaturas por avaliar.
@@ -33,7 +33,7 @@ O sistema indica sucesso e remove a candidatura da lista.
 3. O FAE seleciona o evento.
 4. O sistema apresenta as candidaturas que foram atribuidas ao FAE que ainda não foram avaliadas.
 5. O FAE escolhe uma candidatura da lista para avaliar.
-6. O sistema apresenta a informação da candidatura e solicita a avaliação e justificação.
+6. O sistema apresenta a informação da candidatura e solicita a decisão e justificação.
 7. O FAE aceita ou recusa a candidatura e justifica com um texto.
 8. O sistema remove a candidatura da lista de candidaturas por avaliar.
 9. Os passos 4 a 8 repetem-se até que todas as candidaturas do evento do FAE estejam avaliadas.
@@ -54,7 +54,7 @@ O sistema indica sucesso e remove a candidatura da lista.
     2.a O FAE não insere outro evento. O caso de uso termina.
 
 11a. O FAE não confirma.
-1. Nada é guardado permanentemente e os registos temporarios sao apagados. 
+1. Nada é guardado permanentemente e os registos temporarios sao apagados.
 ## Requisitos especiais
 *
 

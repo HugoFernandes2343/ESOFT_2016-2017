@@ -1,4 +1,4 @@
-# UC8 Registar gestor de eventos
+# UC8 Registar Gestor de Eventos
 ##	Formato breve
 O gestor de eventos inicia o registo de um novo gestor de eventos.
 O sistema mostra a lista de utilizadores registados que ainda não são gestores.
@@ -8,7 +8,7 @@ O gestor confirma o gestor.
 O sistema regista o utilizador como gestor de eventos e informa do sucesso da operação.
 
 ##	SSD de formato breve
-
+![SSD_UC8.png](../../Imagens/SSD_UC8.png)
 
 ##	Formato completo
 
@@ -30,7 +30,7 @@ O sistema regista o utilizador como gestor de eventos e informa do sucesso da op
 1. O gestor de eventos inicia o registo de um novo gestor de eventos.
 2. O sistema mostra a lista de utilizadores registados que ainda não são gestores.
 3. O gestor de eventos insere o utilizador.
-4. O sistema o sistema valida o utilizador e adiciona-o como gestor de eventos.
+4. O sistema valida o utilizador e adiciona-o como gestor de eventos.
 5. Os passos 2 a 4 repetem-se até que todos os gestores de eventos tenham sido adicionados.
 6. O sistema apresenta todos os getores de eventos declarados e respetivos dados e solicita confirmação do gestor.
 7. O gestor confirma os dados.

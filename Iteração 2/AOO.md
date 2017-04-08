@@ -2,13 +2,13 @@
 ## Tabela de Categorias
 | Categoria                                                         | Conceito |
 |-------------------------------------------------------------------|----------|
-| Transações(do negócio)                                            |Candidatura, Decisão de candidatura|
+| Transações(do negócio)                                            |Candidatura, Decisão de candidatura, Atribuição|
 | Linhas de transações                                              |     /    |
-| Produtos ou serviços relacionados com transações                  |     /    |
+| Produtos ou serviços relacionados com transações                  |   Stand, Workshop    |
 | Registos (de transações)                                          |     /    |
 | Papéis das pessoas                                                |Utilizador, Gestor de eventos, Organizadores, FAE, Representante do Participante|
 | Lugares                                                           |Local,Centro de eventos|
-| Eventos                                                           |Eventos   |
+| Eventos                                                           |Eventos(Congressos ou Exposições)   |
 | Objetos físicos                                                   |     /    |
 | Especificações e descrições                                       |     /    |
 | Catálogos                                                         |     /    |
@@ -24,21 +24,38 @@
 
 | Conceito 1                                           | Associação    | Conceito 2         |
 |------------------------------------------------------|---------------|--------------------|
+| Centro de eventos                                    | Tem           | Algoritmo          |
+|                                                      | Providência   | Stands             |
+|                                                      | Tem           | Utilizador         |  
+|                                                      | Tem           | Eventos            |
 | Gestor de eventos                                    | Cria          | Evento             |
-|                                                      | Confirma      | Utilizador pendente|
-|                                                      | É             | Utilizador         |
-| Evento                                               | Tem           | Organizadores      |
-|                                                      | Realiza-se num| Local              |
+|                                                      | Nomeia        | Organizadores      |
+|                                                      | Cria          | Gestor de eventos  |
+|                                                      | É um          | Utilizador         |
+| Evento                                               | Tem           | Organizador        |
+|                                                      | Realizado em  | Local              |
+|                                                      | Tem           | FAE                |
+|                                                      | Tem           | Atribuição         |
+|                                                      | Pode ser      | Exposição          |
+|                                                      | Pode ser      | Congresso          |
+|                                                      | Tem           | Candidatura        |
 | Organizador                                          | Nomeam        | FAE                |
-|                                                      | Recebe        | Candidatura        |
 |                                                      | Distribui     | FAE                |
-|                                                      | É             | Utilizador         |
+|                                                      | É um          | Utilizador         |
+|                                                      | Cria          | Workshop           |
+|                                                      | Faz           | Atribuição         |
 | Representante                                        | Faz           | Candidatura        |
+| Congresso                                            | Tem           | Workshop           |
 | Participante                                         | Tem           | Representante      |
-|                                                      | É             | Utilizador         |
-| FAE                                                  | Avalia        | Candidatura        |
-|                                                      | É             | Utilizador         |
-| Centro de eventos                                    | Tem           | Utilizador         |  
+|                                                      | É um          | Utilizador         |
+| FAE                                                  | Faz           | Avaliação          |
+|                                                      | É um          | Utilizador         |
+| Candidatura                                          | Em nome de    | Participante       |
+| Avaliação                                            | Acerca de     | Candidatura        |
+| Atribuição                                           | Tem           | Candidatura        |
+|                                                      | Tem           | FAE                |
+|                                                      | Usa           | Algoritmo          |
+|                                                      | Tem           | Avaliação          |
 
 ## Modelo de dominio
 ![Análise OO.png](Imagens/Análise OO.png)

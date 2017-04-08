@@ -1,4 +1,4 @@
-## UC7: Confirmar registo de utilizador
+## UC7: Confirmar Registo de Utilizador
 ## Formato breve
 Um gestor de eventos solicita ao sistema o conjunto de utilizadores que efetuaram o registo e que ainda não foram confirmados no sistema. O sistema apresenta os dados solicitados ao gestor de eventos. O gestor de eventos seleciona os utilizadores pretendidos e submete-os ao sistema que, lhe solicita a confirmação dessa sua seleção. O utilizador confirma os dados e o sistema regista os utilizadores selecionados como confirmados e informa o Gestor de eventos do sucesso da operação.
 ## SSD - Formato breve

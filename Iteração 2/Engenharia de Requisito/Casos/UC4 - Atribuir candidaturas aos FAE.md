@@ -1,13 +1,13 @@
-# UC4 Atribuir candidaturas
+# UC4 Atribuir Candidaturas
 ## Formato breve
 O Organizador inicia o sistema.
 O sistema mostra a lista de eventos.
 O Organizador escolhe o evento.
 O sistema mostra as candidaturas para o evento.
 O organizador escolhe as candidaturas.
-O sistema mostra a lista dos FAE.
-O Organizador escolhe os FAE.
-O sistema pede confirmação.
+O sistema mostra os algoritmos de atribuição de candidaturas disponiveis.
+O Organizador escolhe um algoritmo.
+O sistema mostra a atribuição efetuada e solicita confirmação.
 O Organizador confirma.
 O sistema indica sucesso.
 
@@ -31,13 +31,13 @@ O sistema indica sucesso.
 
 ### Cenário de sucesso principal (ou fluxo básico)
 1. O organizador inicia a atribuição de candidaturas a FAE.
-2. O sistema fornece a sua lista de eventos com candidaturas por atribuir e solicita a selecção de um evento.
+2. O sistema fornece a sua lista de eventos com candidaturas por atribuir e cuja a data de submissão de candidaturas tenha expirado e solicita a selecção de um evento.
 3. O organizador escolhe um evento.
 4. O sistema apresenta uma lista das candidaturas por atribuir aos FAE desse evento.
 5. O organizador escolhe uma candidatura.
-6. O sistema fornece a lista de FAE responsáveis por esse evento.
-7. O organizador escolhe um FAE para avaliar a candidatura.
-8. O sistema atribui a candidatura ao FAE.
+6. O sistema mostra os algoritmos de atribuição de candidaturas disponiveis.
+7. O organizador escolhe um algoritmo.
+8. O sistema atribui a candidatura ao FAE com base no algoritmo.
 9. Os passos 4 a 8 repetem-se até todas as candidaturas do evento terem sido atribuidas.
 10. O sistema apresenta as atribuições definidas e solicita confirmação.
 11. O organizador confirma.
