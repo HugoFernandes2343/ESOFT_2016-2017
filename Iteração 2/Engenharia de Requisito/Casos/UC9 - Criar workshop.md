@@ -12,6 +12,7 @@ O Organizador introduz os dados dos peritos do workshop(nome, email e áreas de 
 O sistema mostra o workshop criado e pede confirmação.
 O Organizador confirma.
 O sistema regista o workshop no congresso e apresenta sucesso.
+
 ## SSD de formato breve
 ![SSD_UC9.png](../../Imagens/SSD_UC9.png)
 
