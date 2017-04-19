@@ -20,8 +20,8 @@
 
 
 ##	Diagrama de Sequência ##
-![UC1-Criar_Evento-SD.png](../Imagens/Desing/UC1-Cria_Evento-SD.png)
+![UC1-Criar_Evento-SD.png](../Imagens/Design/UC1-Cria_Evento-SD.png)
 
 
 ##	Diagrama de Classes ##
-![UC1-Criar_Evento-ClassDiagram.png](../Imagens/Desing/UC1-Criar_Evento-ClassDiagram.png)
+![UC1-Criar_Evento-ClassDiagram.png](../Imagens/Design/UC1-Criar_Evento-ClassDiagram.png)

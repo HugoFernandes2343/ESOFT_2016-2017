@@ -20,8 +20,8 @@
 
 
 ##	Diagrama de Sequência ##
-![UC2-Atribuir_FAE-SD.png](../Imagens/Desing/UC2-Atribuir_FAE-SD.png)
+![UC2-Atribuir_FAE-SD.png](../Imagens/Design/UC2-Atribuir_FAE-SD.png)
 
 
 ##	Diagrama de Classes ##
-![UC2-Atribuir_FAE-ClassDiagram.png](../Imagens/Desing/UC2-Atribuir_FAE-ClassDiagram.png)
+![UC2-Atribuir_FAE-ClassDiagram.png](../Imagens/Design/UC2-Atribuir_FAE-ClassDiagram.png)

@@ -21,8 +21,8 @@
 
 
 ##	Diagrama de Sequência ##
-![UC5-Avaliar_Candidatura-SD.png](../Imagens/Desing/UC5-Avaliar_Candidatura-SD.png)
+![UC5-Avaliar_Candidatura-SD.png](../Imagens/Design/UC5-Avaliar_Candidatura-SD.png)
 
 
 ##	Diagrama de Classes ##
-![UC5-Avaliar_Candidatura-ClassDiagram.png](../Imagens/Desing/UC5-Avaliar_Candidatura-ClassDiagram.png)
+![UC5-Avaliar_Candidatura-ClassDiagram.png](../Imagens/Design/UC5-Avaliar_Candidatura-ClassDiagram.png)

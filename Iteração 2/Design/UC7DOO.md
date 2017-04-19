@@ -16,8 +16,8 @@
 
 
 ##	Diagrama de Sequência ##
-![UC7-Confirmar_Utilizador-SD.png](../Imagens/Desing/UC7-Confirmar_Utilizador-SD.png)
+![UC7-Confirmar_Utilizador-SD.png](../Imagens/Design/UC7-Confirmar_Utilizador-SD.png)
 
 
 ##	Diagrama de Classes ##
-![UC7-Confirmar_Utilizador-ClassDiagram.png](../Imagens/Desing/UC7-Confirmar_Utilizador-ClassDiagram.png)
+![UC7-Confirmar_Utilizador-ClassDiagram.png](../Imagens/Design/UC7-Confirmar_Utilizador-ClassDiagram.png)

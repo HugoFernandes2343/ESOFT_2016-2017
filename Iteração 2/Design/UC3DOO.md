@@ -18,8 +18,8 @@
 
 
 ##	Diagrama de Sequência ##
-![UC3-Criar_Candidatura-SD.png](../Imagens/Desing/UC3-Criar_Candidatura-SD.png)
+![UC3-Criar_Candidatura-SD.png](../Imagens/Design/UC3-Criar_Candidatura-SD.png)
 
 
 ##	Diagrama de Classes ##
-![UC3-Criar_Candidatura-ClassDiagram.png](../Imagens/Desing/UC3-Criar_Candidatura-ClassDiagram.png)
+![UC3-Criar_Candidatura-ClassDiagram.png](../Imagens/Design/UC3-Criar_Candidatura-ClassDiagram.png)

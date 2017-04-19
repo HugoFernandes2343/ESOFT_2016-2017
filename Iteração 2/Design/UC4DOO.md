@@ -21,8 +21,8 @@
 
 
 ##	Diagrama de Sequência ##
-![UC4-Atribuir_Candidatura-SD.png](../Imagens/Desing/UC4-Atribuir_Candidatura-SD.png)
+![UC4-Atribuir_Candidatura-SD.png](../Imagens/Design/UC4-Atribuir_Candidatura-SD.png)
 
 
 ##	Diagrama de Classes ##
-![UC4-Atribuir_Candidatura-ClassDiagram.png](../Imagens/Desing/UC4-Atribuir_Candidatura-ClassDiagram.png)
+![UC4-Atribuir_Candidatura-ClassDiagram.png](../Imagens/Design/UC4-Atribuir_Candidatura-ClassDiagram.png)
