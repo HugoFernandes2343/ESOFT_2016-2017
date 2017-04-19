@@ -6,7 +6,7 @@
 | Linhas de transações                                              |     /    |
 | Produtos ou serviços relacionados com transações                  |   Stand, Workshop    |
 | Registos (de transações)                                          |     /    |
-| Papéis das pessoas                                                |Utilizador, Gestor de eventos, Organizadores, FAE, Representante do Participante|
+| Papéis das pessoas                                                |Utilizador, Gestor de eventos, Organizadores, FAE, Representante do Participante, Peritos|
 | Lugares                                                           |Local,Centro de eventos|
 | Eventos                                                           |Eventos(Congressos ou Exposições)   |
 | Objetos físicos                                                   |     /    |
@@ -36,8 +36,8 @@
 |                                                      | Realizado em  | Local              |
 |                                                      | Tem           | FAE                |
 |                                                      | Tem           | Atribuição         |
-|                                                      | Pode ser      | Exposição          |
-|                                                      | Pode ser      | Congresso          |
+|                                                      | É uma         | Exposição          |
+|                                                      | É um          | Congresso          |
 |                                                      | Tem           | Candidatura        |
 | Organizador                                          | Nomeam        | FAE                |
 |                                                      | Distribui     | FAE                |
@@ -56,6 +56,7 @@
 |                                                      | Tem           | FAE                |
 |                                                      | Usa           | Algoritmo          |
 |                                                      | Tem           | Avaliação          |
+| Workshop                                             | Tem           | Peritos            |
 
 ## Modelo de dominio
 ![Análise OO.png](Imagens/Análise OO.png)
