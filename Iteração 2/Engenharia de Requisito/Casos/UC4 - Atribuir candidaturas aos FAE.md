@@ -1,15 +1,13 @@
 # UC4 Atribuir Candidaturas
 ## Formato breve
-O Organizador inicia o sistema.
+O organizador inicia a atribuição de candidaturas a FAE.
 O sistema mostra a lista de eventos.
 O Organizador escolhe o evento.
-O sistema mostra as candidaturas para o evento.
-O organizador escolhe as candidaturas.
 O sistema mostra os algoritmos de atribuição de candidaturas disponiveis.
 O Organizador escolhe um algoritmo.
-O sistema mostra a atribuição efetuada e solicita confirmação.
+O sistema mostra as atribuições geradas de acordo com o algoritmo escolhido e solicita confirmação.
 O Organizador confirma.
-O sistema indica sucesso.
+O sistema grava as atribuições e indica sucesso.
 
 ## SSD de formato breve
 ![SSD_UC4.png](../../Imagens/SSD_UC4.png)
@@ -33,22 +31,19 @@ O sistema indica sucesso.
 1. O organizador inicia a atribuição de candidaturas a FAE.
 2. O sistema fornece a sua lista de eventos com candidaturas por atribuir e cuja a data de submissão de candidaturas tenha expirado e solicita a selecção de um evento.
 3. O organizador escolhe um evento.
-4. O sistema apresenta uma lista das candidaturas por atribuir aos FAE desse evento.
-5. O organizador escolhe uma candidatura.
-6. O sistema mostra os algoritmos de atribuição de candidaturas disponiveis.
-7. O organizador escolhe um algoritmo.
-8. O sistema atribui a candidatura ao FAE com base no algoritmo.
-9. Os passos 4 a 8 repetem-se até todas as candidaturas do evento terem sido atribuidas.
-10. O sistema apresenta as atribuições definidas e solicita confirmação.
-11. O organizador confirma.
-12. O sistema regista as atribuições de candidaturas a FAE e indica sucesso.
+4. O sistema mostra os algoritmos de atribuição de candidaturas disponiveis.
+5. O organizador escolhe um algoritmo.
+6. O sistema mostra as atribuições geradas de acordo com o algoritmo escolhido e pergunta se este deve ser considerado de forma definitiva.
+7.  O Organizador responde à pergunta.
+8. Os passos 4 a 7 são repetidos até à escolha definitiva do resultado do algoritmo.  
+9. O sistema guarda as atribuições geradas, informando do sucesso da operação.
 
 ### Extensões (ou fluxos alternativos)
 \*a. O utilizador (não registado) solicita cancelamento do registo.
 
 + O caso de uso termina.
 
-11a. O organizador não confirma.
+10a. O organizador não confirma.
 1. Nada é guardado permanentemente e os registos temporarios sao apagados.
 ## Requisitos especiais
 *
