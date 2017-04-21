@@ -12,7 +12,7 @@
 | 4.	O sistema valida e regista os dados do utilizador. | ... valida os dados de cada Utilizador (validação local)? | Utilizador | IE |
 | | ...valida a lista de Utilizadores (validação global)? | CentrodeEventos | IE |
 | | ... regista o Utilizador? | CentrodeEventos | IE. No MD o CentrodeEventos contém/agrega Utilizador(es) |
-| 5.	O sistema notifica o utilizador do sucesso da operação e apresenta os dados inseridos no sistema. | | | |
+| 5.	O sistema notifica o utilizador do sucesso da operação e apresenta os dados inseridos no sistema. | | | ||
 
 ##	Diagrama de Sequência ##
 ![TP_DOO_SD.png](https://bitbucket.org/repo/RXabA9/images/1008167083-TP_DOO_SD.png)
