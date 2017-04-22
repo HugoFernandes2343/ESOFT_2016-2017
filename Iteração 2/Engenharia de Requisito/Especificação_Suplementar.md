@@ -28,7 +28,7 @@ n/a
 ## Desempenho
 *Avalia os requisitos de desempenho do software, nomeadamente: tempo de resposta, consumo de memória, utilização da CPU, capacidade de carga e disponibilidade da aplicação.*
 
-n/a
+-  Perto das datas limites de submissão das candidaturas a um evento prevê-se uma sobrecarga maior do sistema, pelo que o sistema deve ser escalável.
 
 ## Suportabilidade
 *Os requisitos de suportabilidade agrupam várias características, como:
@@ -38,16 +38,16 @@ configurabilidade, instalabilidade, escalabilidade entre outros.*
 -   Manutibilidade: devem ser adotadas boas práticas de análise e design de software OO
 
 
-## +
+## 
 
 ### Restrições de design
 
 *Especifica ou restringe o processo de design do sistema. Exemplos podem incluir: linguagens de programação, processo de software, uso de ferramentas de desenvolvimento, biblioteca de classes, etc.*
 
--   Adoção de boas práticas de design, nomeadamente padrões GRASP
+-   Adoção de boas práticas de design(e.g. padrões GRASP, SOLID)
 
 -   Deve ser adotado um processo de desenvolvimento de software
-    iterativo e incremental
+    iterativo e incremental, normas de codificação (e.g. Camel case) e de controlo de versões.
 
 ### Restrições de implementação
 
