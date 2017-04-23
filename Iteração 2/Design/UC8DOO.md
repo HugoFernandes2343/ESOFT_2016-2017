@@ -16,8 +16,8 @@
 
 
 ##	Diagrama de Sequência ##
-![UC8-Registar_Gestor_de_Eventos-SD.png](../Imagens/Design/UC8-Registar_Gestor_de_Eventos-SD.png)
+![UC8-Registar_Gestor_de_Eventos-SD.png](../Imagens/Design/UC8-Registar_Gestor_De_Eventos-SD.png)
 
 
 ##	Diagrama de Classes ##
-![UC8-Registar_Gestor_de_Eventos-ClassDiagram.png](../Imagens/Design/UC8-Registar_Gestor_de_Eventos-ClassDiagram.png)
+![UC8-Registar_Gestor_de_Eventos-ClassDiagram.png](../Imagens/Design/UC8-Registar_Gestor_De_Eventos-ClassDiagram.png)

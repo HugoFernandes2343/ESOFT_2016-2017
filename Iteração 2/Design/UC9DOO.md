@@ -25,7 +25,7 @@
 
 
 ##	Diagrama de Sequência ##
-![UC9-Criar_Workshop-SD.png](../Imagens/Design/UC9-Criar_Workshop.png)
+![UC9-Criar_Workshop-SD.png](../Imagens/Design/UC9-Criar_Workshop-SD.png)
 
 
 ##	Diagrama de Classes ##
