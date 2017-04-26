@@ -14,3 +14,5 @@
 * [UC7 - Confirmar Registo de Utilizador](Casos/UC7 - Confirmar Registo de Utilizador)
 * [UC8 - Registar Gestor de Eventos](Casos/UC8 - Registar gestor de eventos)
 * [UC9 - Criar Workshop](Casos/UC9 - Criar workshop)
+* [UC10 - Alterar Lista de Peritos](Design/UC10 - Alterar Lista de Peritos)
+* [UC11 - Alterar Candidatura](Design/UC11 - Alterar Candidatura)
