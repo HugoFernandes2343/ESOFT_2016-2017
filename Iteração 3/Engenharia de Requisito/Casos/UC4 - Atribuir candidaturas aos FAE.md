@@ -36,14 +36,14 @@ O sistema grava as atribuições e indica sucesso.
 6. O sistema mostra as atribuições geradas de acordo com o algoritmo escolhido e pergunta se este deve ser considerado de forma definitiva.
 7.  O Organizador responde à pergunta.
 8. Os passos 4 a 7 são repetidos até à escolha definitiva do resultado do algoritmo.  
-9. O sistema guarda as atribuições geradas, informando do sucesso da operação.
+9. O sistema regista as atribuições geradas, informando do sucesso da operação.
 
 ### Extensões (ou fluxos alternativos)
 \*a. O utilizador (não registado) solicita cancelamento do registo.
 
 + O caso de uso termina.
 
-10a. O organizador não confirma.
+7a. O organizador não confirma.
 1. Nada é guardado permanentemente e os registos temporarios sao apagados.
 ## Requisitos especiais
 *

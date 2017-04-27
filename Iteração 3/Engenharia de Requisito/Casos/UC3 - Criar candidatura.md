@@ -23,6 +23,7 @@ O sistema guarda a candidatura e apresenta sucesso.
 + A candidatura não pode estar já efetuada.
 + O evento para o qual será feita a candidatura tem de estar criado na aplicação.
 + O evento para o qual será feita a candidatura tem de estar dentro do prazo de submissão.
++ O evento para o qual será feita a candidatura tem de Organizadores e FAE defenidos.
 
 
 ### Pós-condições
