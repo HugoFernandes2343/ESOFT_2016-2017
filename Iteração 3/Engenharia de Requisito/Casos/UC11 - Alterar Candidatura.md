@@ -1,14 +1,19 @@
 # UC11 Alterar Candidatura
+
 ##	Formato breve
-O gestor de eventos inicia o registo de um novo gestor de eventos.
-O sistema pede as credências do utilizador que será declarado como gestor.
-O gestor de eventos insere o utilizador.
-O sistema mostra os dados do novo gestor e pede confirmação.
-O gestor confirma o gestor.
-O sistema regista o utilizador como gestor de eventos e informa do sucesso da operação.
+O Representante inicia a edição da Candidatura.
+O sistema mostra os eventos a que concorreu cuja a data de submissão ainda não tenha expirado.
+O Representante seleciona o evento.
+O sistema mostra a candidatura e solicita operação.
+O Organizador seleciona a operação.
+O sistema mostra os passos a serem efetuados.
+O Organizador efetua os passos solicitados.
+O sistema apresenta o resultado final e solicita confirmação.
+O Organizador confirma.
+O sistema regista as alterções efetuadas e indica sucesso.
 
 ##	SSD de formato breve
-![SSD_UC8.png](../../Imagens/SSD_UC8.png)
+![SSD_UC11.png](../../Imagens/SSD_UC11.png)
 
 ##	Formato completo
 
@@ -16,22 +21,27 @@ O sistema regista o utilizador como gestor de eventos e informa do sucesso da op
 * Representante do Participante
 
 ### Partes interessadas e seus interesses
-+ Centro de Eventos: Pretende que a candidatura efetuada seja alterada.
-+ Participante: Pretende que a sua candidatura a um evento seja alterada.
++ Representante do Participante: Pretende alterar a sua candidatura.
++ Evento: Pretende manter atualizada as suas candidaturas.
 
 ### Pré-condições
-+ A candidatura tem de estar previamente feita.
++ Tem de ter uma candidatura registada no evento.
++ Não pode ter expirado o periodo de submissão de candidaturas desse evento.
 
 ### Pós-condições
-* O registo das alterações da candidatura a um evento fica armazenado no sistema.
+* A candidatura fica alterada.
 
 ### Cenário de sucesso principal (ou fluxo básico)
-1. O gestor de eventos inicia o registo de um novo gestor de eventos.
-2. O sistema pede as credências do utilizador que será declarado como gestor.
-3. O gestor de eventos insere os dados do utilizador.
-4. O sistema valida o utilizador e solicita confirmação do gestor.
-5. O gestor confirma os dados.
-6. O sistema regista o utilizador como gestor de eventos e informa o gestor do sucesso da operação.
+1. O Representante inicia a edição da Candidatura.
+2. O sistema mostra os eventos a que concorreu cuja a data de submissão ainda não tenha expirado.
+3. O Representante seleciona o evento.
+4. O sistema mostra a candidatura e solicita operação.
+5. O Organizador seleciona a operação.
+6. O sistema mostra os passos a serem efetuados.
+7. O Organizador efetua os passos solicitados.
+8. O sistema apresenta o resultado final e solicita confirmação.
+9. O Organizador confirma.
+10. O sistema regista as alterções efetuadas e indica sucesso.
 
 ### Extensões (ou fluxos alternativos)
 \*a. O utilizador (não registado) solicita cancelamento do registo.
@@ -53,6 +63,32 @@ O sistema regista o utilizador como gestor de eventos e informa do sucesso da op
 
     2a. O  gestor de eventos não altera os dados. O caso de uso termina.
 
+    3a. Dados mínimos obrigatórios em falta.
+
+    1. O sistema informa quais os dados em falta.
+    2. O sistema permite a introdução dos dados em falta (passo 3)
+
+        2.a O gestor de eventos não altera os dados. O caso de uso termina.
+
+
+5a. Dados mínimos obrigatórios em falta.
+
+1. O sistema informa quais os dados em falta.
+2. O sistema permite a introdução dos dados em falta (passo 3)
+
+    2.a O gestor de eventos não altera os dados. O caso de uso termina.
+
+
+5b. O sistema detecta que os dados introduzidos (ou algum subconjunto dos dados) são inválidos.
+
+1. O sistema alerta o gestor de eventos para o facto.
+2. O sistema permite a sua alteração (passo 3)
+
+    2a. O  gestor de eventos não altera os dados. O caso de uso termina.     
+
+9a. O Organizador não confirma.
+
+1. O caso de uso termina.
 
 ## Requisitos especiais
 *
@@ -64,7 +100,4 @@ O sistema regista o utilizador como gestor de eventos e informa do sucesso da op
 *
 
 ## Questões em aberto
-+ O registo de gestores de eventos deve estar sempre disponível?
-+ É possivél o gestor anular a ação realizada?
-+ O utilizador deve ser notificado do seu registo como gestor de eventos?
 + Qual a frequência de ocorrência deste caso de uso?

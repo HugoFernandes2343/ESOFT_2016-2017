@@ -7,7 +7,7 @@ O sistema pede os dados do workshop(código único e descrição).
 O Organizador introduz os dados.
 O sistema pede os temas do workshop.
 O Organizador introduz os temas do workshop.
-O sistema pede os dados dos peritos do workshop.
+O sistema pede os dados do perito do workshop e apresenta todos os existentes no sistema.
 O Organizador introduz os dados dos peritos do workshop(nome, email e áreas de perícia relevantes).
 O sistema mostra o workshop criado e pede confirmação.
 O Organizador confirma.
@@ -42,7 +42,7 @@ O sistema regista o workshop no congresso e apresenta sucesso.
 6. O sistema pede o tema do workshop.
 7. O Organizador introduz o tema do workshop.
 8. Os passos 6 a 7 repetem-se até todos os temas terem sido introduzidos.
-9. O sistema pede os dados do perito do workshop.
+9. O sistema pede os dados do perito do workshop e apresenta todos os existentes no sistema.
 10. O Organizador introduz os dados do perito do workshop(nome, email e áreas de perícia relevantes).
 11. Os passos 9 a 10 repetem-se até todos os peritos  terem sido introduzidos.
 12. O sistema mostra o workshop criado e pede confirmação.
