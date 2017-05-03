@@ -14,12 +14,12 @@
 | 6. O sistema valida o utilizador e adiciona-o como FAE do evento.          | ...procurar o utilizador?                 | RegistoDeUtilizadores   | IE: é a classe que armazena todos os utilizadores criados.  |
 |                                                                            | ...guardar o utilizador?                  |        FAE        | IE: classe que armazena a referencia do utilizador que é FAE do evento.|
 |                                                                            | ...instanciar o FAE?                      |       ListFAE     | Creator                                                           |
+|                                                                            | ...validar o FAE?                         |       Evento      | IE: é a classe que armazena todos os dados do evento.             |
 |                                                                            | ...armazenar os FAE atribuídos ao evento? |       ListFAE     | IE: é a classe que armazena todos os FAE atribuidos ao evento.    |
 | 7. Os passos 4 a 6 repetem-se até todos os FAE estarem introduzidos.       | n/a                                       |                   |                                                                   |
 | 8. O sistema pede confirmação dos dados introduzidos.                      | n/a                                       |                   |                                                                   |
 | 9. O utilizador confirma os utilizadores introduzidos.                     | n/a                                       |                   |                                                                   |
 | 10. O sistema regista os FAE e indica sucesso.                             | ...registar os FAE?                       |       ListFAE     | IE: é a classe que armazena todos os FAE atribuidos ao evento     |
-
 
 ##	Diagrama de Sequência ##
 ![UC2-Atribuir_FAE-SD.png](../Imagens/Design/UC2-Atribuir_FAE-SD.png)
