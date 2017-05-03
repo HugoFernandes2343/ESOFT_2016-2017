@@ -2,17 +2,15 @@
 
 ## Racional ##
 
-| Cenário | Que classe... | Resposta | Justificação |
-|---------|---------------|----------|--------------|
-| 1.	O ator inicia no sistema o seu registo. | ... interage com o ator? | RegistarUtilizadorUI | Pure Fabrication. |
-| | ... coordena o UC? | RegistarUtilizadorController | Controller. |  
-| 2.	O sistema solicita os dados do utilizador (nome, e-mail, palavra-chave). | | | |
-| 3.	O utilizador  introduz os dados solicitados. | ... guarda os dados do utilizador? | Utilizador | Information Expert |
-| | ... instancia Utilizador? | CentrodeEventos | Creator (Regra 1) |
-| 4.	O sistema valida e regista os dados do utilizador. | ... valida os dados de cada Utilizador (validação local)? | Utilizador | IE |
-| | ...valida a lista de Utilizadores (validação global)? | CentrodeEventos | IE |
-| | ... regista o Utilizador? | CentrodeEventos | IE. No MD o CentrodeEventos contém/agrega Utilizador(es) |
-| 5.	O sistema notifica o utilizador do sucesso da operação e apresenta os dados inseridos no sistema. | | | ||
+| Cenário principal                                                                                       | Questão: Que classe deve... | Resposta              | Justificação                                                        |
+|---------------------------------------------------------------------------------------------------------|-----------------------------|-----------------------|---------------------------------------------------------------------|
+| 1. O utilizador (não registado) inicia no sistema o seu registo.                                        | n/a                         |                       |                                                                     |
+| 2. O sistema solicita os dados do utilizador (nome, username, e-mail, password, fuso horário e idioma). | ...armazenar os dados?      | Utilizador            | IE: é a classe responsável por armazenar os dados de um utilizador. |
+|                                                                                                         | ...instanciar o utilizador? | RegistoDeUtilizadores | Creator                                                             |
+| 3. O utilizador (não registado) introduz os dados solicitados.                                          | n/a                         |                       |                                                                     |
+| 4. O sistema valida e solicita que o utilizador (não registado) confirme os dados inseridos.            | ...validar o utilizador?    | RegistoDeUtilizadores | IE: é a classe responsável por armazenar todos os utilizadores.     |
+| 5. O utilizador (não registado) confirma os dados.                                                      |  n/a                           |                       |                                                                     |
+| 6. O sistema regista os dados e informa o utilizador (não registado) do sucesso da operação.            | ...registar o utilizador?   | RegistoDeUtilizadores | IE: é a classe responsável por armazenar todos os utilizadores.     |
 
 ##	Diagrama de Sequência ##
 ![TP_DOO_SD.png](https://bitbucket.org/repo/RXabA9/images/1008167083-TP_DOO_SD.png)

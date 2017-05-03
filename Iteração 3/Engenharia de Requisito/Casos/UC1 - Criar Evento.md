@@ -32,7 +32,7 @@ O sistema regista o novo evento e informa do sucesso da operação.
 1. O gestor de eventos inicia o registo do evento.
 2. O sistema solicita o tipo de evento(Congresso ou Exposição).
 3. O gestor de eventos seleciona o tipo de evento.
-4. O sistema solicita os dados do evento(titulo, descrição, data de inicio, data de fim, data limite de submissão de candidaturas e local de realização).
+4. O sistema solicita os dados do evento(titulo, descrição, data de inicio, data de fim, data limite de submissão de candidaturas, data limite de atribuições, data limite de avaliações e local de realização).
 5. O gestor de eventos introduz os dados solicitados.
 6. O sistema solicita um organizador para o evento.
 7. O gestor de eventos insere um organizador.

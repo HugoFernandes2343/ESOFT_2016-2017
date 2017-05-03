@@ -1,9 +1,9 @@
 # UC6 Registar Utilizador
 ##	Formato breve
-O utilizador não registado introduz no sistema os seus dados (nome, username, e-mail, password, fusoHorario e idioma). O sistema valida os dados e pede confirmação. O utilizador confirma os dados inseridos. O sistema regista os dados e informa o utilizador do sucesso da operação.
+O utilizador não registado introduz no sistema os seus dados (nome, username, e-mail, password, fuso horário e idioma). O sistema valida os dados e pede confirmação. O utilizador confirma os dados inseridos. O sistema regista os dados e informa o utilizador do sucesso da operação.
 
 ##	SSD de formato breve
-![SSD_UC6.png](https://bitbucket.org/repo/Lg4X4o/images/1326046318-SSD_UC6.png)
+![SSD_UC6.png](../../Imagens/SSD_UC6.png)
 
 ##	Formato completo
 
@@ -22,7 +22,7 @@ O utilizador não registado introduz no sistema os seus dados (nome, username, e
 
 ### Cenário de sucesso principal (ou fluxo básico)
 1. O utilizador (não registado) inicia no sistema o seu registo.
-2. O sistema solicita os dados do utilizador (nome, username, e-mail, password, fusoHorario e idioma).
+2. O sistema solicita os dados do utilizador (nome, username, e-mail, password, fuso horário e idioma).
 3. O utilizador (não registado) introduz os dados solicitados.
 4. O sistema valida e solicita que o utilizador (não registado) confirme os dados inseridos.
 5. O utilizador (não registado) confirma os dados.
