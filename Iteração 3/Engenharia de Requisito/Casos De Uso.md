@@ -16,3 +16,4 @@
 * [UC9 - Criar Workshop](Casos/UC9 - Criar workshop)
 * [UC10 - Alterar Lista de Peritos](Casos/UC10 - Alterar Lista de Peritos)
 * [UC11 - Alterar Candidatura](Casos/UC11 - Alterar Candidatura)
+* [UC12 - Registar Perito](Casos/UC12 - Registar Perito)
