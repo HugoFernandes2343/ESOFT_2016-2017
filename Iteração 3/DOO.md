@@ -1,5 +1,5 @@
 # Design
-## Diagrama de classe
+## Diagramas de estados
 
 ## Design de Casos de Uso
 
@@ -14,3 +14,4 @@
 * [UC9 - Criar Workshop](Design/UC9DOO.md)
 * [UC10 - Alterar Lista de Peritos](Design/UC10DOO.md)
 * [UC11 - Alterar Candidatura](Design/UC11DOO.md)
+* [UC12 - Registar Perito](Design/UC12DOO.md)
