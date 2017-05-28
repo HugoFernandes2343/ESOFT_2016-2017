@@ -1,5 +1,4 @@
 # Design
-## Diagramas de estados
 
 ## Design de Casos de Uso
 
@@ -16,14 +15,16 @@
 * [UC11 - Alterar Candidatura](Design/UC11DOO.md)
 * [UC12 - Registar Perito](Design/UC12DOO.md)
 
-## Congresso State ##
+## Diagramas de estados
+
+## Congresso State
 
 ![CongressoState.png](Imagens/Design/CongressoState.png)
 
-## Exposição State ##
+## Exposição State
 
 ![ExposicaoState.png](Imagens/Design/ExposicaoState.png)
 
-## Candidatura State ##
+## Candidatura State 
 
 ![CandidaturaState.png](Imagens/Design/CandidaturaState.png)
