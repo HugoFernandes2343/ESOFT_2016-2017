@@ -15,3 +15,15 @@
 * [UC10 - Alterar Lista de Peritos](Design/UC10DOO.md)
 * [UC11 - Alterar Candidatura](Design/UC11DOO.md)
 * [UC12 - Registar Perito](Design/UC12DOO.md)
+
+## Congresso State ##
+
+![CongressoState.png](Imagens/Design/CongressoState.png)
+
+## Exposição State ##
+
+![ExposicaoState.png](Imagens/Design/ExposicaoState.png)
+
+## Candidatura State ##
+
+![CandidaturaState.png](Imagens/Design/CandidaturaState.png)

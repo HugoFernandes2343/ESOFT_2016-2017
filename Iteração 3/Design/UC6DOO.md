@@ -13,7 +13,6 @@
 | 6. O sistema regista os dados e informa o utilizador (não registado) do sucesso da operação.            | ...registar o utilizador?   | RegistoDeUtilizadores | IE: é a classe responsável por armazenar todos os utilizadores.     |
 
 ##	Diagrama de Sequência ##
-![TP_DOO_SD.png](https://bitbucket.org/repo/RXabA9/images/1008167083-TP_DOO_SD.png)
-
+![UC6-Registar_Utilizador-SD.png](../Imagens/Design/UC6-Registar_Utilizador-SD.png)
 ##	Diagrama de Classes ##
-![TP_DOO_CD.png](https://bitbucket.org/repo/RXabA9/images/2694103138-TP_DOO_CD.png)
+![UC6-Registar_Utilizador-ClassDiagram.png](../Imagens/Design/UC6-Registar_Utilizador-ClassDiagram.png)

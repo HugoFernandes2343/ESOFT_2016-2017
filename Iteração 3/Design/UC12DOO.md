@@ -11,3 +11,8 @@
 | 4. O sistema valida e solicita que o Gestor de Eventos confirme os dados inseridos.  | ...validar o Perito?        | RegistoDePeritos | IE: é a classe responsável por armazenar todos os Peritos do sistema. |
 | 5. O Gestor de Eventos confirma os dados.                                            | n/a                         |                  |                                                                       |
 | 6. O sistema regista o Perito e informa o Gestor do sucesso da operação.             | ...registar o Perito?       | RegistoDePeritos | IE: é a classe responsável por armazenar todos os Peritos do Sistema. |
+
+##	Diagrama de Sequência ##
+![UC12-Criar_Perito-SD.png](../Imagens/Design/UC12-Criar_Perito-SD.png)
+##	Diagrama de Classes ##
+![UC12-Criar_Perito-ClassDiagram.png](../Imagens/Design/UC12-Criar_Perito-ClassDiagram.png)
