@@ -1,14 +1,16 @@
 # UC9 Criar Workshop
 ## Formato breve
-O Organizador inicia o registo do worhshop.
+O Organizador inicia o registo do workshop.
 O sistema mostra os congressos organizados pelo organizador.
 O Organizador escolhe um evento.
-O sistema pede os dados do workshop(código único e descrição).
+O sistema pede os dados do workshop (código único, descrição e temas).
 O Organizador introduz os dados.
-O sistema pede os temas do workshop.
-O Organizador introduz os temas do workshop.
-O sistema pede os dados do perito do workshop e apresenta todos os existentes no sistema.
-O Organizador introduz os dados dos peritos do workshop(nome, email e áreas de perícia relevantes).
+O sistema apresenta uma lista de peritos recomendados que podem ser adicionados na totalidade ao workshop a ser criado.
+O sistema disponibiliza a opção de adicionar um novo perito diferente dos recomendados.
+O Organizador introduz os dados dos peritos do workshop (nome, email e áreas de perícia relevantes).
+O sistema pede confirmação dos Peritos a serem adicionados ao Workshop.
+O organizador confirma.
+O sistema valida os peritos e regista-os no respetivo Workshop.
 O sistema mostra o workshop criado e pede confirmação.
 O Organizador confirma.
 O sistema regista o workshop no congresso e apresenta sucesso.
@@ -31,23 +33,24 @@ O sistema regista o workshop no congresso e apresenta sucesso.
 
 
 ### Pós-condições
-* O registo do Workshop fica armezenado no sistema.
+* O registo do Workshop fica armazenado no sistema.
 
 ### Cenário de sucesso principal (ou fluxo básico)
-1. O Organizador inicia o registo do worhshop.
+1. O Organizador inicia o registo do workshop.
 2. O sistema mostra os congressos organizados pelo organizador.
-3. O Organizador escolhe um evento.
-4. O sistema pede os dados do workshop(código único e descrição).
+3. O Organizador escolhe um dos congressos.
+4. O sistema pede os dados do workshop (código único, descrição e temas).
 5. O Organizador introduz os dados.
-6. O sistema pede o tema do workshop.
-7. O Organizador introduz o tema do workshop.
-8. Os passos 6 a 7 repetem-se até todos os temas terem sido introduzidos.
-9. O sistema pede os dados do perito do workshop e apresenta todos os existentes no sistema.
-10. O Organizador introduz os dados do perito do workshop(nome, email e áreas de perícia relevantes).
-11. Os passos 9 a 10 repetem-se até todos os peritos  terem sido introduzidos.
-12. O sistema mostra o workshop criado e pede confirmação.
-13. O Organizador confirma.
-14. O sistema regista o workshop no congresso e apresenta sucesso.
+6. O sistema apresenta um conjunto de Peritos recomendados para o workshop a ser criado, através de um algoritmo.
+7. O organizador escolhe adicionar (todos) os peritos recomendados ao Workshop a ser criado ou escolhe ignorar este passo.
+8. O sistema solicita os dados de um perito a ser adicionado ao workshop.
+9. O Organizador introduz os dados do perito (nome, email e áreas de perícia relevantes).
+10. Os passos 8 a 9 repetem-se até todos os peritos terem sido introduzidos.
+11. O sistema solicita a confirmação dos peritos a serem adicionados.
+12. O organizador confirma.
+13. O sistema valida e regista os Peritos criados/escolhidos ao workshop criado e solicita a confirmação do workshop criado.
+14. O Organizador confirma.
+15. O sistema valida e regista o workshop no congresso e apresenta mensagem de sucesso.
 
 ### Extensões (ou fluxos alternativos)
 \*a. O representante do participante (com a candidatura não registada) solicita cancelamento do registo.
